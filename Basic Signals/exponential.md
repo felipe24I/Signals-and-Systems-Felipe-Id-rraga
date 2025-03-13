@@ -2,6 +2,7 @@
 <p align="center">
   <em>A fundamental signal in signal processing and system analysis</em>
 </p>
+
 ---
 
 ## Definition
