@@ -10,8 +10,8 @@ $$x(t) = e^{at}$$
 
 | Increasing (a > 0) | Decreasing (a < 0) |
 |:------------------:|:------------------:|
-| ![Increasing Exponential Signal](https://github.com/user-attachments/assets/2226ddc8-b67d-4751-b364-14cc4c8d3fd0)
-| ![Decreasing Exponential Signal](https://github.com/user-attachments/assets/296eee67-5fa5-4de9-b2c9-a30842723a3f) |
+| (https://github.com/user-attachments/assets/2226ddc8-b67d-4751-b364-14cc4c8d3fd0)
+| (https://github.com/user-attachments/assets/296eee67-5fa5-4de9-b2c9-a30842723a3f) |
 
 ## Utility
 
