@@ -1,7 +1,7 @@
-# Exponential Signal
-
-The exponential signal is a fundamental signal in signal processing and system analysis.
-
+<h1 align="center">Exponential Signal</h1>
+<p align="center">
+  <em>A fundamental signal in signal processing and system analysis</em>
+</p>
 ---
 
 ## Definition
