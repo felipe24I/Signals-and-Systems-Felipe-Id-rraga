@@ -8,18 +8,11 @@ $$x(t) = e^{at}$$
 
 ## Visual Representation
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 48%;">
-    <h3>Increasing (a > 0)</h3>
-    <img src="![creciente](https://github.com/user-attachments/assets/acc519c8-cf75-44c0-8f24-66e8b1456b1b)
-" alt="Increasing Exponential Signal" width="100%">
-  </div>
-  <div style="width: 48%;">
-    <h3>Decreasing (a < 0)</h3>
-    <img src="![image](https://github.com/user-attachments/assets/df08e442-b2e4-413e-a617-bd69d5c939a5)
-" alt="Decreasing Exponential Signal" width="100%">
-  </div>
-</div>
+| Increasing (a > 0) | Decreasing (a < 0) |
+|:------------------:|:------------------:|
+| ![Increasing Exponential Signal](![creciente](https://github.com/user-attachments/assets/2c6a964f-01a7-4b62-a195-d2f9bbba8653)
+) | ![Decreasing Exponential Signal](![image](https://github.com/user-attachments/assets/3f811f30-3982-41db-aeeb-21b72da5ad93)
+) |
 
 ## Utility
 
