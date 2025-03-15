@@ -66,6 +66,7 @@ plt.tight_layout()
 plt.show()
 
 ```
+![Dirac Delta](https://github.com/user-attachments/assets/6fe1a212-e0a5-4701-879a-3c074e2ed187)
 
 ## Characteristics
 
