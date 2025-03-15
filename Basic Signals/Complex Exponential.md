@@ -16,7 +16,7 @@ Where:
 
 Using Euler's formula, the complex exponential can be expressed as:
 
-$$x(t) = e^{(\sigma + j\omega)t} = e^{\sigma t} \cdot e^{j\omega t} = e^{\sigma t}[\cos(\omega t) + j \cdot e^{\sigma t}\sin(\omega t)]$$
+$$x(t) = e^{(\sigma + j\omega)t} = e^{\sigma t} \cdot e^{j\omega t} = e^{\sigma t}\cos(\omega t) + j \cdot e^{\sigma t}\sin(\omega t)$$
 
 Where:
 - $\omega = 2\pi f$ is the angular frequency
