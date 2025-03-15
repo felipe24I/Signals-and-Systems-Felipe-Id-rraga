@@ -113,3 +113,102 @@ plt.show()
 
 - **Laplace transform**: 
   $$\mathcal{L}\{\delta(t)\} = 1$$
+
+## Mathematical Proofs
+
+### Proof of the Sampling Property
+
+Starting with $\delta(t-t_0)x(t) = \delta(t-t_0)x(t_0)$ (due to the definition of delta and its graphical representation):
+
+$$\int_{-\infty}^{\infty} \delta(t-t_0)x(t) dt = \int_{-\infty}^{\infty} \delta(t-t_0)x(t_0) dt$$
+
+$$\int_{-\infty}^{\infty} \delta(t-t_0)x(t) dt = x(t_0) \int_{-\infty}^{\infty} \delta(t-t_0) dt$$
+
+$$\int_{-\infty}^{\infty} \delta(t-t_0)x(t) dt = x(t_0) \cdot 1$$
+
+$$\int_{-\infty}^{\infty} \delta(t-t_0)x(t) dt = x(t_0)$$
+
+### Proof of the Scaling Property
+
+To evaluate $\int_{-\infty}^{\infty} \delta(at) dt$ for $a \neq 0$, we use the substitution:
+
+$t' = at$
+$dt' = a \cdot dt$
+
+#### Case 1: When $a < 0$
+
+By properties of integrals with changes of limits:
+
+$$\int_{-\infty}^{\infty} \delta(t') \frac{dt'}{a} = -\frac{1}{a}\int_{-\infty}^{\infty} \delta(t') dt' = -\frac{1}{a} \cdot 1 = -\frac{1}{a}$$
+
+Since $a < 0$, this gives $\frac{1}{|a|}$
+
+#### Case 2: When $a > 0$
+
+The limits transform as:
+- When $t = -\infty$, $t' = -\infty$
+- When $t = \infty$, $t' = \infty$
+
+Therefore:
+
+$$\int_{-\infty}^{\infty} \delta(t') \frac{dt'}{a} = \frac{1}{a}\int_{-\infty}^{\infty} \delta(t') dt' = \frac{1}{a} \cdot 1 = \frac{1}{a}$$
+
+#### Combined Result
+
+For both cases, we can write:
+
+$$\int_{-\infty}^{\infty} \delta(at) dt = \frac{1}{|a|}$$
+
+Which means:
+
+$$\delta(at) = \frac{1}{|a|}\delta(t)$$
+
+### Proof of the Derivative Property
+
+To prove: $\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$
+
+Using integration by parts with:
+- $u = x(t)$
+- $dv = \frac{d\delta(t)}{dt} dt$
+- $du = \frac{dx(t)}{dt} dt$
+- $v = \delta(t)$
+
+We get:
+
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = x(t)\delta(t)\big|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
+
+Since $\delta(\infty) = \delta(-\infty) = 0$:
+
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = 0 - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
+
+Applying the sampling property:
+
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$$
+
+### Proof with Shifted Derivative
+
+For $\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt$:
+
+Using integration by parts with:
+- $u = x(t)$
+- $dv = \frac{d\delta(t \pm t_0)}{dt} dt$
+- $du = \frac{dx(t)}{dt} dt$
+- $v = \delta(t \pm t_0)$
+
+We get:
+
+$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = x(t)\delta(t \pm t_0)\big|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
+
+Since $\delta(\infty \pm t_0) = \delta(-\infty \pm t_0) = 0$:
+
+$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
+
+Applying the sampling property:
+
+$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=\mp t_0}$$
+
+## Notes about Even Functions
+
+- Remember that an even function is a mathematical function that satisfies $f(x) = f(-x)$ for all x in its domain
+- Examples: $f(x) = x^2$ is symmetric with respect to the y-axis
+- The delta function is an even function: $\delta(t) = \delta(-t)$
