@@ -53,6 +53,7 @@ The visual representation shows both the real and imaginary parts of the signal:
 - For **σ** < 0 (stable case), the amplitude decreases over time
 - The real and imaginary parts are 90° out of phase with each other
 
+## Code Example
 ```python
 import sympy as sp
 import numpy as np
