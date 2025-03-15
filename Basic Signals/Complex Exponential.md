@@ -4,13 +4,13 @@
 
 The complex exponential signal is defined as:
 
-$$x(t) = e^{st}$$
+**$$x(t) =** e^{st}$$
 
 Where:
-- $s = \sigma + j\omega$ is a complex frequency (where $s$ is the complex frequency)
-- $\sigma$ is the real part
-- $j\omega$ is the imaginary part 
-- $\sigma, \omega \in \mathbb{R}$ (real numbers)
+- **$s** = \sigma + j\omega$ is a complex frequency (where **$s$** is the complex frequency)
+- **$\sigma$** is the real part
+- **$j\omega$** is the imaginary part 
+- **$\sigma**, **\omega** \in \mathbb{R}$ (real numbers)
 
 ## Mathematical Representation
 
@@ -19,7 +19,7 @@ Using Euler's formula, the complex exponential can be expressed as:
 $$x(t) = e^{(\sigma + j\omega)t} = e^{\sigma t} \cdot e^{j\omega t} = e^{\sigma t}\cos(\omega t) + j \cdot e^{\sigma t}\sin(\omega t)$$
 
 Where:
-- $\omega = 2\pi f$ is the angular frequency
+- **$\omega** = 2\pi f$ is the angular frequency
 
 ## Behavior for t > 0
 
