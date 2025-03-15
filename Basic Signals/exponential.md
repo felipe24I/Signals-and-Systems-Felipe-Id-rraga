@@ -90,6 +90,7 @@ plt.ylim(0, 1.1)
 
 plt.tight_layout()
 plt.savefig('images/exponential_signals.png', dpi=300)
-plt.show()´´´
+plt.show()```
 
-https://drive.google.com/open?id=1e2hkYvh6-7uJpsoqLGs5vjmKD50cVyLa&usp=drive_copy
+![exponential_signals](https://github.com/user-attachments/assets/7cfe6de2-04fa-4989-8115-5bf796604783)
+
