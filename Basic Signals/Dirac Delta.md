@@ -203,6 +203,7 @@ Since $\delta(\infty \pm t_0) = \delta(-\infty \pm t_0) = 0$:
 
 $$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
 
+
 Applying the sampling property:
 
 $$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=\mp t_0}$$
