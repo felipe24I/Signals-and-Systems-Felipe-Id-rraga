@@ -199,7 +199,7 @@ Using integration by parts with:
 
 We get:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = x(t)\delta(t \pm t_0)\big|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
+$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = x(t)\delta(t \pm t_0)\_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
 
 Since $\delta(\infty \pm t_0) = \delta(-\infty \pm t_0) = 0$:
 
