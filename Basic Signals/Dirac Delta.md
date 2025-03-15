@@ -173,16 +173,6 @@ Using integration by parts with:
 - $du = \frac{dx(t)}{dt} dt$
 - $v = \delta(t)$
 
-### Proof of the Derivative Property
-
-To prove: $\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$
-
-Using integration by parts with:
-- $u = x(t)$
-- $dv = \frac{d\delta(t)}{dt} dt$
-- $du = \frac{dx(t)}{dt} dt$
-- $v = \delta(t)$
-
 We get the integration by parts formula:
 
 **[Integration by parts result: The integral equals the product of x(t) and δ(t) evaluated between limits, minus the integral of δ(t) times the derivative of x(t)]**
