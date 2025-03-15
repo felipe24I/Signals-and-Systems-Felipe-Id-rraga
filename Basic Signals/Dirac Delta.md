@@ -22,7 +22,48 @@ The primary utility of the delta function is that it allows for obtaining the im
 
 ## Visual Representation
 
-![Delta Function](https://example.com/delta_function.png)
+Since the Dirac delta cannot be perfectly represented in digital systems, we approximate it using a narrow pulse with unit area.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def approximate_delta(t, epsilon=0.1):
+    """Approximates the Dirac delta function with a narrow pulse."""
+    return np.where(np.abs(t) < epsilon/2, 1/epsilon, 0)
+
+# Time axis for continuous approximation
+t = np.linspace(-2, 2, 1000)
+delta_approx = approximate_delta(t, epsilon=0.1)
+
+# Discrete delta function
+n = np.arange(-5, 6)
+delta_discrete = np.zeros_like(n)
+delta_discrete[5] = 1  # delta[0] = 1
+
+# Create figure
+plt.figure(figsize=(12, 6))
+
+# Plot continuous approximation
+plt.subplot(1, 2, 1)
+plt.plot(t, delta_approx)
+plt.grid(True)
+plt.title('Continuous Delta Function Approximation')
+plt.xlabel('t')
+plt.ylabel('δ(t)')
+plt.xlim(-1, 1)
+
+# Plot discrete delta
+plt.subplot(1, 2, 2)
+plt.stem(n, delta_discrete)
+plt.grid(True)
+plt.title('Discrete Delta Function')
+plt.xlabel('n')
+plt.ylabel('δ[n]')
+plt.xlim(-6, 6)
+
+plt.tight_layout()
+plt.show()
 
 ## Characteristics
 
