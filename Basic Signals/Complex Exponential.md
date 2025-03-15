@@ -143,3 +143,5 @@ else:
     print(f"Since σ = {sigma_val} = 0, the signal has CONSTANT amplitude (sustained oscillations)")
 
 ```
+
+![complex_exponential_sympy](https://github.com/user-attachments/assets/85b898a5-e741-44e6-a695-dd1f1ba97c01)
