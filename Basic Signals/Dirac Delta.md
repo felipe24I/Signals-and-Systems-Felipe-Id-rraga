@@ -65,6 +65,8 @@ plt.xlim(-6, 6)
 plt.tight_layout()
 plt.show()
 
+```
+
 ## Characteristics
 
 - It is a **generalized function** (acts by extracting the value of a function at a specific point)
