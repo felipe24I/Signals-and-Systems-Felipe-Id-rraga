@@ -145,3 +145,4 @@ else:
 ```
 
 ![complex_exponential_sympy](https://github.com/user-attachments/assets/85b898a5-e741-44e6-a695-dd1f1ba97c01)
+![complex_exponential_magnitude](https://github.com/user-attachments/assets/cbf8c00e-76d4-473e-806d-cfe22a9e4066)
