@@ -175,19 +175,19 @@ Using integration by parts with:
 
 We get:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = x(t)\delta(t)\big|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} x(t) dt = [x(t)\delta(t)]_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
 
 Since $\delta(\infty) = \delta(-\infty) = 0$:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = 0 - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} x(t) dt = 0 - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
 
 Applying the sampling property:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$$
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$$
 
 ### Proof with Shifted Derivative
 
-For $\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt$:
+For $\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} x(t) dt$:
 
 Using integration by parts with:
 - $u = x(t)$
@@ -197,12 +197,11 @@ Using integration by parts with:
 
 We get:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = x(t)\delta(t \pm t_0)\big|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
+$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} x(t) dt = [x(t)\delta(t \pm t_0)]_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
 
 Since $\delta(\infty \pm t_0) = \delta(-\infty \pm t_0) = 0$:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
-
+$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} x(t) dt = - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
 
 Applying the sampling property:
 
