@@ -177,7 +177,7 @@ Using integration by parts with:
 
 We get:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = x(t)\delta(t)\big|_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
+$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = $$
 
 Since $\delta(\infty) = \delta(-\infty) = 0$:
 
