@@ -173,39 +173,45 @@ Using integration by parts with:
 - $du = \frac{dx(t)}{dt} dt$
 - $v = \delta(t)$
 
-We get:
+### Proof of the Derivative Property
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} x(t) dt = [x(t)\delta(t)]_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
-
-Since $\delta(\infty) = \delta(-\infty) = 0$:
-
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} x(t) dt = 0 - \int_{-\infty}^{\infty} \delta(t) \frac{dx(t)}{dt} dt$$
-
-Applying the sampling property:
-
-$$\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$$
-
-### Proof with Shifted Derivative
-
-For $\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} x(t) dt$:
+To prove: $\int_{-\infty}^{\infty} \frac{d\delta(t)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=0}$
 
 Using integration by parts with:
 - $u = x(t)$
-- $dv = \frac{d\delta(t \pm t_0)}{dt} dt$
+- $dv = \frac{d\delta(t)}{dt} dt$
 - $du = \frac{dx(t)}{dt} dt$
-- $v = \delta(t \pm t_0)$
+- $v = \delta(t)$
+
+We get the integration by parts formula:
+
+**[Integration by parts result: The integral equals the product of x(t) and δ(t) evaluated between limits, minus the integral of δ(t) times the derivative of x(t)]**
+
+Since δ(∞) = δ(-∞) = 0, the first term becomes zero:
+
+**[The integral simplifies to the negative of the integral of δ(t) times the derivative of x(t)]**
+
+Applying the sampling property of the delta function:
+
+**[Final result: The integral equals the negative of the derivative of x(t) evaluated at t=0]**
+
+### Proof with Shifted Derivative
+
+For the integral containing δ(t±t₀):
+
+Using integration by parts with similar substitutions.
 
 We get:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} x(t) dt = [x(t)\delta(t \pm t_0)]_{-\infty}^{\infty} - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
+**[Integration by parts with shifted delta: The integral equals the product of x(t) and δ(t±t₀) evaluated at limits, minus the integral of δ(t±t₀) times the derivative of x(t)]**
 
-Since $\delta(\infty \pm t_0) = \delta(-\infty \pm t_0) = 0$:
+Since δ(∞±t₀) = δ(-∞±t₀) = 0:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} x(t) dt = - \int_{-\infty}^{\infty} \delta(t \pm t_0) \frac{dx(t)}{dt} dt$$
+**[The integral simplifies to the negative of the integral of δ(t±t₀) times the derivative of x(t)]**
 
 Applying the sampling property:
 
-$$\int_{-\infty}^{\infty} \frac{d\delta(t \pm t_0)}{dt} \cdot x(t) dt = -\left.\frac{dx(t)}{dt}\right|_{t=\mp t_0}$$
+**[Final result: The integral equals the negative of the derivative of x(t) evaluated at t=∓t₀]**
 
 ## Notes about Even Functions
 
