@@ -92,5 +92,6 @@ plt.tight_layout()
 plt.savefig('images/exponential_signals.png', dpi=300)
 plt.show()```
 
+
 ![exponential_signals](https://github.com/user-attachments/assets/7cfe6de2-04fa-4989-8115-5bf796604783)
 
