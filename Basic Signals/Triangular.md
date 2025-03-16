@@ -113,3 +113,7 @@ ax2.annotate('', xy=(left_edge, -0.1), xytext=(right_edge, -0.1),
 
 plt.tight_layout()
 plt.show()
+
+```
+
+![image](https://github.com/user-attachments/assets/6d729bc8-cd0f-4c29-91ce-3fc73fdd6516)
