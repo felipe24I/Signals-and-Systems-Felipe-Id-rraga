@@ -19,7 +19,7 @@ The primary utility of the unit step function is to represent instantaneous acti
 import numpy as np
 import matplotlib.pyplot as plt
 import sympy as sp
-from sympy import symbols, Heaviside, DiracDelta, diff, Piecewise, plot_piecewise
+from sympy import symbols, Heaviside, DiracDelta, diff, Piecewise
 
 # Define symbolic variables
 t = symbols('t', real=True)
@@ -36,7 +36,10 @@ print(f"u(t) = {unit_step}")
 delayed_step = Heaviside(t - a)  # Delayed by 'a'
 advanced_step = Heaviside(t + a)  # Advanced by 'a'
 reflected_step = Heaviside(-t)   # Time reflection
+reflected_step2 = -Heaviside(t) #Amplitude reflection
+reflected_step3 = -Heaviside(-t) #Phase reflection
 
+# Print time-shifted variants
 print(f"\nDelayed step u(t-a) = {delayed_step}")
 print(f"Advanced step u(t+a) = {advanced_step}")
 print(f"Reflected step u(-t) = {reflected_step}")
@@ -53,19 +56,6 @@ t_vals = np.linspace(-5, 5, 1000)
 
 def step_func(t):
     return np.where(t >= 0, 1, 0)
-
-# Create plots
-plt.figure(figsize=(10, 6))
-plt.plot(t_vals, step_func(t_vals), 'b-', linewidth=2)
-plt.axhline(y=0, color='k', linestyle='-', alpha=0.3)
-plt.axvline(x=0, color='k', linestyle='-', alpha=0.3)
-plt.grid(True)
-plt.title('Unit Step Signal $u(t)$')
-plt.xlabel('Time (t)')
-plt.ylabel('Amplitude')
-plt.ylim(-0.2, 1.2)
-plt.tight_layout()
-plt.show()
 
 # Plot shifted and reflected functions
 plt.figure(figsize=(12, 8))
@@ -100,3 +90,5 @@ plt.ylim(-0.2, 1.2)
 
 plt.tight_layout()
 plt.show()
+
+```
