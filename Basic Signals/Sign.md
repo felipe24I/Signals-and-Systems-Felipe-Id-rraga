@@ -66,3 +66,14 @@ plt.show()
 
 ![image](https://github.com/user-attachments/assets/ec5d278d-bda9-4b00-b30d-5178acd0a649)
 
+## Utility
+
+The sign function is useful for representing the absolute value of a real signal X(t):
+
+$$|X(t)| = X(t) \cdot sgn(X(t))$$
+
+## Relationship with Unit Step Function
+
+The sign function can be expressed in terms of the unit step function:
+
+$$sgn(t) = 2u(t) - 1$$
