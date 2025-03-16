@@ -63,21 +63,17 @@ plt.show()
 
 - **On and off**: Represents a signal that is active for a specific time window
 - **Utility**: Models temporal windows in signal processing
-- **Area**: The area of the rectangle is always 1 (height × width = 1 × 2τ = 1)
+- **Area**: The area of the rectangle is 2τ (height × width = 1 × 2τ = 2τ)
 - **Relationship with step function**: $rect(t) = u(t + \frac{\tau}{2}) - u(t - \frac{\tau}{2})$
 - **Limiting behavior**: $\lim_{\tau \to 0} rect_\tau(t) = \delta(t)$
   - As τ becomes very small, the rectangle approaches the delta function while maintaining unit area
 
 ## Mathematical Representation
 
-For a rectangle of width 2τ and height 1/(2τ):
+For the standard rectangular signal with height 1 and width 2τ:
+
+$$Area = base \cdot height = 2\tau \cdot 1 = 2\tau$$
+
+For a normalized rectangular pulse with area 1, the height would be adjusted to 1/(2τ):
 
 $$Area = base \cdot height = 2\tau \cdot \frac{1}{2\tau} = 1$$
-
-## Applications
-
-- Windowing functions in signal processing
-- Pulse-width modulation
-- Digital communication systems
-- Sampling theory
-- Filter design
