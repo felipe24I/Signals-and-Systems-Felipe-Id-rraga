@@ -92,3 +92,5 @@ plt.tight_layout()
 plt.show()
 
 ```
+
+![image](https://github.com/user-attachments/assets/27eb9c15-7064-4c99-9eca-93f6698c76b1)
