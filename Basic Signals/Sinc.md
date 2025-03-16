@@ -66,6 +66,9 @@ plt.show()
 
 ```
 
+![image](https://github.com/user-attachments/assets/4ed82814-b6dc-4294-b385-699ae93c91a4)
+
+
 ## Utility
 
 The sinc function appears in signal sampling and reconstruction. It is the Fourier transform of the rectangular function and plays a fundamental role in the sampling theorem and signal interpolation.
