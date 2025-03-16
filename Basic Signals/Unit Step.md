@@ -94,3 +94,23 @@ plt.show()
 ```
 
 ![image](https://github.com/user-attachments/assets/e3fad82f-f18f-4548-88cd-780ea0cbb2f2)
+
+```python
+# Plot shifted and reflected functions
+plt.figure(figsize=(12, 8))
+
+# Amplitude reflection
+plt.subplot(2, 2, 1)
+plt.plot(t_vals, -step_func(t_vals), 'b-', linewidth=2)
+plt.grid(True)
+plt.title('$-u(t)$')
+plt.ylim(-1.2, 1.2)
+
+# Amplitude and time reflection
+plt.subplot(2, 2, 2)
+plt.plot(t_vals, -step_func(-t_vals), 'r-', linewidth=2)
+plt.grid(True)
+plt.title('$-u(-t)$')
+plt.ylim(-1.2, 1.2)
+
+```
