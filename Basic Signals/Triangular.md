@@ -117,3 +117,20 @@ plt.show()
 ```
 
 ![image](https://github.com/user-attachments/assets/6d729bc8-cd0f-4c29-91ce-3fc73fdd6516)
+
+## Properties
+
+- **Symmetry** → Even function
+- **Continuity** → The triangular function is continuous
+- **Integral** → $\int tri(t) dt = 1$
+- **Convolution** → The convolution of two rectangular pulses results in a triangular pulse
+- **Fourier Transform** → $\mathcal{F}\{tri(t)\} = sinc^2(f)$
+- **Area** → The area under the triangular pulse is 1
+
+## Applications
+
+- Pulse shaping in communication systems
+- Window functions in signal processing
+- Dithering in digital audio and image processing
+- Triangular wave generators
+- Filter design
