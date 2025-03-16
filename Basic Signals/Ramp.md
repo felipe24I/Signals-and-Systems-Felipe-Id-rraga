@@ -50,3 +50,40 @@ plt.tight_layout()
 plt.show()
 
 ```
+
+![image](https://github.com/user-attachments/assets/1482b7f7-e9f5-494a-b81b-10b2a0dd498c)
+
+## Properties
+
+### Slope Variations
+
+The parameter $\alpha$ controls the slope of the ramp:
+
+- **If $\alpha > 1$**: Steeper ramp (faster growth rate)
+- **If $0 < \alpha < 1$**: Gentler ramp (reduced growth rate)
+- **If $\alpha < 0$**: Negative slope ramp (decreasing)
+
+### Mathematical Properties
+
+- First derivative: $\frac{d}{dt}[\alpha t \cdot u(t)] = \alpha \cdot u(t) + \alpha t \cdot \delta(t) = \alpha \cdot u(t)$
+  - Note that the derivative at t = 0 includes the delta function, but for t ≠ 0, it equals $\alpha$ for t > 0 and 0 for t < 0
+  
+- Second derivative: $\frac{d^2}{dt^2}[\alpha t \cdot u(t)] = \alpha \cdot \delta(t)$
+
+- Laplace transform: $\mathcal{L}\{\alpha t \cdot u(t)\} = \frac{\alpha}{s^2}$
+
+- Integral: $\int_{-\infty}^{t} \alpha \tau \cdot u(\tau) d\tau = \frac{\alpha t^2}{2} \cdot u(t)$ (for t > 0)
+
+### Modified Ramp Signals
+
+- **Delayed ramp**: $\alpha (t-t_0) \cdot u(t-t_0)$ 
+  - Starts at t = t₀ instead of t = 0
+
+- **Shifted ramp**: $\alpha t \cdot u(t) + \beta$
+  - Vertical shift of the ramp by constant β
+
+- **Saturated ramp**: $\min(\alpha t, L) \cdot u(t)$
+  - Ramp that stops increasing after reaching value L
+
+- **Exponentially modified ramp**: $\alpha t \cdot e^{-\beta t} \cdot u(t)$
+  - Ramp with exponential damping
