@@ -117,49 +117,46 @@ plt.ylim(-1.2, 1.2)
 
 ![image](https://github.com/user-attachments/assets/9ba21ad0-8062-4fc8-8132-f75b0a61659a)
 
-# Properties
-Time Reflection Properties
-Reflection of the independent variable:
-If we reflect the time axis with u(−t)u(-t)
-u(−t), we get:
+## Properties
+
+### Time Reflection Properties
+
+**Reflection of the independent variable**:
+
+If we reflect the time axis with $u(-t)$, we get:
 
 $$u(-t) = \begin{cases}
-0, & \text{if } -t < 0 \Rightarrow t > 0 \
+0, & \text{if } -t < 0 \Rightarrow t > 0 \\
 1, & \text{if } -t \geq 0 \Rightarrow t \leq 0
 \end{cases}$$
-Reflection of the dependent variable:
-If we negate the amplitude with −u(t)-u(t)
-−u(t), we get:
+
+**Reflection of the dependent variable**:
+
+If we negate the amplitude with $-u(t)$, we get:
 
 $$-u(t) = \begin{cases}
--1, & \text{if } t \geq 0 \
+-1, & \text{if } t \geq 0 \\
 0, & \text{if } t < 0
 \end{cases}$$
-Note: The unit step function u(t)u(t)
-u(t) always takes values of either 0 or 1. Therefore, −u(t)-u(t)
-−u(t) will be either 0 or -1.
 
-Time-Shifted Step Functions
-Delayed signal u(t−a)u(t-a)
-u(t−a) where a>0a > 0
-a>0:
+**Note**: The unit step function $u(t)$ always takes values of either 0 or 1. Therefore, $-u(t)$ will be either 0 or -1.
+
+### Time-Shifted Step Functions
+
+**Delayed signal $u(t-a)$ where $a > 0$**:
+
 $$u(t-a) = \begin{cases}
-0, & \text{if } t-a < 0 \Rightarrow t < a \
+0, & \text{if } t-a < 0 \Rightarrow t < a \\
 1, & \text{if } t-a \geq 0 \Rightarrow t \geq a
 \end{cases}$$
-This represents a step that is "delayed" by aa
-a seconds because it activates at t=at = a
-t=a instead of t=0t = 0
-t=0.
 
-Advanced signal u(t+a)u(t+a)
-u(t+a) where a>0a > 0
-a>0:
+This represents a step that is "delayed" by $a$ seconds because it activates at $t = a$ instead of $t = 0$.
+
+**Advanced signal $u(t+a)$ where $a > 0$**:
+
 $$u(t+a) = \begin{cases}
-0, & \text{if } t+a < 0 \Rightarrow t < -a \
+0, & \text{if } t+a < 0 \Rightarrow t < -a \\
 1, & \text{if } t+a \geq 0 \Rightarrow t \geq -a
 \end{cases}$$
-This represents a step that is "advanced" by aa
-a seconds because it activates at t=−at = -a
-t=−a instead of t=0t = 0
-t=0.
+
+This represents a step that is "advanced" by $a$ seconds because it activates at $t = -a$ instead of $t = 0$.
