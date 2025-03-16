@@ -114,3 +114,5 @@ plt.title('$-u(-t)$')
 plt.ylim(-1.2, 1.2)
 
 ```
+
+![image](https://github.com/user-attachments/assets/9ba21ad0-8062-4fc8-8132-f75b0a61659a)
