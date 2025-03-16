@@ -4,7 +4,7 @@
 
 The sinc signal is defined as:
 
-$$x(t) = \sinc(t) = \frac{\sin(\pi t)}{\pi t}$$
+$$x(t) = sinc(t) = \frac{\sin(\pi t)}{\pi t}$$
 
 ## Visual Representation
 
