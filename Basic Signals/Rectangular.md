@@ -59,6 +59,9 @@ plt.show()
 
 ```
 
+![image](https://github.com/user-attachments/assets/cb068962-4945-40b8-8d0d-a08e9bf6decc)
+
+
 ## Properties
 
 - **On and off**: Represents a signal that is active for a specific time window
