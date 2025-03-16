@@ -118,6 +118,9 @@ plt.show()
 
 ## Mathematical Proofs
 
+![image](https://github.com/user-attachments/assets/084c066c-a6a2-47cd-81cf-09eeabad5b24)
+
+
 ### Proof of the Sampling Property
 
 Starting with $\delta(t-t_0)x(t) = \delta(t-t_0)x(t_0)$ (due to the definition of delta and its graphical representation):
