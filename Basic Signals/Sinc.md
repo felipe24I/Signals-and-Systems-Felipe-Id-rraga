@@ -72,10 +72,10 @@ The sinc function appears in signal sampling and reconstruction. It is the Fouri
 
 ## Properties
 
-- **Value at origin**: $\operatorname{sinc}(0) = 1$ (using L'Hôpital's rule)
-- **Zeros**: $\operatorname{sinc}(n) = 0$ for all non-zero integers $n$
-- **Symmetry**: $\operatorname{sinc}(-t) = \operatorname{sinc}(t)$ (even function)
-- **Fourier transform**: $\mathcal{F}\{\operatorname{sinc}(t)\} = \text{rect}(f)$ (rectangular function)
+- **Value at origin**: $sinc(0) = 1$ (using L'Hôpital's rule)
+- **Zeros**: $sinc(n) = 0$ for all non-zero integers $n$
+- **Symmetry**: $sinc(-t) = sinc(t)$ (even function)
+- **Fourier transform**: $\mathcal{F}\{sinc(t)\} = rect(f)$ (rectangular function)
 - **Decaying oscillations**: The function oscillates with decreasing amplitude as $|t|$ increases
 
 ## Applications
