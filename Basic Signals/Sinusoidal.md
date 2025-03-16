@@ -91,3 +91,23 @@ plt.show()
 ```
 
 ![image](https://github.com/user-attachments/assets/23ad623e-ca74-4cfb-ab94-cd22f92e6a34)
+
+## Utility
+
+Sinusoidal signals represent oscillations and are the foundation of Fourier analysis, which allows complex periodic signals to be decomposed into sums of sinusoids.
+
+## Mathematical Properties
+
+- First derivative: $\frac{d}{dt}[\sin(\omega t)] = \omega \cos(\omega t)$
+- Second derivative: $\frac{d^2}{dt^2}[\sin(\omega t)] = -\omega^2 \sin(\omega t)$
+- Integration: $\int \sin(\omega t) dt = -\frac{1}{\omega} \cos(\omega t) + C$
+- Laplace transform: $\mathcal{L}\{\sin(\omega t)\} = \frac{\omega}{s^2 + \omega^2}$
+- Fourier transform: $\mathcal{F}\{\sin(\omega_0 t)\} = \frac{1}{2j}[\delta(\omega-\omega_0) - \delta(\omega+\omega_0)]$
+
+## Relationship to Complex Exponential
+
+Sinusoidal signals can be expressed in terms of complex exponentials using Euler's formula:
+
+$$\sin(\omega t) = \frac{e^{j\omega t} - e^{-j\omega t}}{2j}$$
+
+$$\cos(\omega t) = \frac{e^{j\omega t} + e^{-j\omega t}}{2}$$
