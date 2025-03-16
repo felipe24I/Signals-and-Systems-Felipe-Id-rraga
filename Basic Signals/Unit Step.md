@@ -93,4 +93,4 @@ plt.show()
 
 ```
 
-![image](https://github.com/user-attachments/assets/27eb9c15-7064-4c99-9eca-93f6698c76b1)
+![image](https://github.com/user-attachments/assets/e3fad82f-f18f-4548-88cd-780ea0cbb2f2)
