@@ -61,3 +61,8 @@ plt.annotate('sgn(0) = 0', xy=(0, 0), xytext=(0.2, 0.2),
 
 plt.tight_layout()
 plt.show()
+
+```
+
+![image](https://github.com/user-attachments/assets/ec5d278d-bda9-4b00-b30d-5178acd0a649)
+
