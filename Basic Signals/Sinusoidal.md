@@ -87,3 +87,7 @@ plt.ylim(-1.2, 1.2)
 plt.legend()
 plt.tight_layout()
 plt.show()
+
+```
+
+![image](https://github.com/user-attachments/assets/23ad623e-ca74-4cfb-ab94-cd22f92e6a34)
