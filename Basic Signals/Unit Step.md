@@ -139,6 +139,18 @@ $$-u(t) = \begin{cases}
 0, & \text{if } t < 0
 \end{cases}$$
 
+**Reflection of both independent and dependent variables**:
+
+If we apply both reflections simultaneously with $-u(-t)$, we get:
+
+$$-u(-t) = \begin{cases}
+-1, & \text{if } -t \geq 0 \Rightarrow t \leq 0 \\
+0, & \text{if } -t < 0 \Rightarrow t > 0
+\end{cases} = \begin{cases}
+-1, & \text{if } t \leq 0 \\
+0, & \text{if } t > 0
+\end{cases}$$
+
 **Note**: The unit step function $u(t)$ always takes values of either 0 or 1. Therefore, $-u(t)$ will be either 0 or -1.
 
 ### Time-Shifted Step Functions
@@ -160,3 +172,19 @@ $$u(t+a) = \begin{cases}
 \end{cases}$$
 
 This represents a step that is "advanced" by $a$ seconds because it activates at $t = -a$ instead of $t = 0$.
+
+### Relationship with Dirac Delta Function
+
+The derivative of the unit step function is the Dirac delta function:
+
+$$\frac{d}{dt}u(t) = \delta(t)$$
+
+Graphically, this represents an infinite rate of change at $t = 0$ (where the step function jumps from 0 to 1), and zero rate of change everywhere else (where the step function is constant).
+
+### Integral Relationship
+
+The unit step function can be defined as the integral of the Dirac delta function:
+
+$$u(t) = \int_{-\infty}^{t} \delta(\tau) d\tau$$
+
+This relationship is the mathematical way of expressing that the step function "accumulates" the effect of the impulse.
