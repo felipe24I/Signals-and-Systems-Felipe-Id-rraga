@@ -66,7 +66,7 @@ For each sample, this tells us which quantization level is closest:
 Finally, we use these indices to look up the corresponding quantization levels:
 
 ```python
-quantized_signal = levels_2d.flatten()[closest_indices]
+quantized_signal = vector_levels[closest_indices]
 ```
 
 Result:
