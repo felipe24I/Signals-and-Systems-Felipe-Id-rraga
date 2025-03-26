@@ -16,19 +16,19 @@ $h(t)= f(t) + g(t)$
 
 # Properties
 
--Linear operation
+- Linear operation
 
--Preserves the characteristics of individual signals
+- Preserves the characteristics of individual signals
 
--Fundamental in linear system analysis
+- Fundamental in linear system analysis
 
 # Examples
 
--Combining audio signals
+- Combining audio signals
 
--Analyzing interference in wave systems
+- Analyzing interference in wave systems
 
--Electronic circuit analysis
+- Electronic circuit analysis
 
 # 2. Temporal displacement
 
