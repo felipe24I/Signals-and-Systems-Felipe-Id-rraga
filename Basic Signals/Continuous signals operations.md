@@ -34,7 +34,11 @@ $h(t)= f(t) + g(t)$
 
 ```python
 
-import numpy as np
+import sympy as sym
+
+def superposition (x1, x2):
+  x = x1+x2
+  return x
 ```
 # 2. Temporal displacement
 
