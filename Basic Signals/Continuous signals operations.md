@@ -34,7 +34,7 @@ $h(t)= f(t) + g(t)$
 
 ```python
 
-#import numpy as np
+import numpy as np
 ```
 # 2. Temporal displacement
 
