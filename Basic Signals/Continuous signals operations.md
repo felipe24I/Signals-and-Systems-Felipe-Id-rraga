@@ -30,6 +30,12 @@ $h(t)= f(t) + g(t)$
 
 - Electronic circuit analysis
 
+# Code example
+
+```python
+
+#import numpy as np
+```
 # 2. Temporal displacement
 
 # 3. Scaling displacement
