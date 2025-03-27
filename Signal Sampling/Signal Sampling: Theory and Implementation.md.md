@@ -18,7 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/6388e3ad-dd69-4907-acb4-287dedf0b6b2)
 
-**CK**: Clock signal, provides acontrol signal for sampling
+**CK**: Clock signal, provides a control signal for sampling
 
 **Capacitor**: 
   - **When switch ON**: Capacitor charges the voltage from input signal
