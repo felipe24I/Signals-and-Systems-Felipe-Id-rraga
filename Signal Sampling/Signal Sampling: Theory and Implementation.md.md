@@ -16,11 +16,11 @@ Key concepts:
 - **Sampling period (Tₛ)**: Time between samples (Tₛ = 1/fₛ)
 
 ## Nyquist-Shannon Theorem
-The fundamental theorem governing sampling states:
+**Core principle**:  
+A signal with maximum frequency `f_max` must be sampled at:  
+`f_s > 2 × f_max`  
+to avoid **aliasing** (signal distortion).
 
-> A bandlimited signal with no frequency components higher than fₘₐₓ can be perfectly reconstructed if sampled at fₛ > 2fₘₐₓ
-
-```mermaid
-graph LR
-    A[Analog Signal] -->|Sampling| B[Discrete Samples]
-    B -->|Reconstruction| C[Recovered Signal]
+**Key implications**:
+- `f_Nyquist = 2 × f_max` (minimum sampling rate)
+- Undersampling (`f_s < 2f_max`) causes frequency folding
