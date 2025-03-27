@@ -8,6 +8,10 @@
 
 **$T_s$:** How many time transcurs bewteen each sampling
 
+**$t_n$:** Discrete time
+
+**$t_n$:** $n*T_s$
+
 **Note:** Samplings are always integers
 
 # **A sample and hold circuit**
@@ -16,7 +20,7 @@
 
 **CK**: Clock signal, provides acontrol signal for sampling
 
-**capacitor**: 
+**Capacitor**: 
   - **When switch ON**: Capacitor charges the voltage from input signal
   - **When switch OFF**: Capacitor retern this voltage for ADC converter process this value
 
