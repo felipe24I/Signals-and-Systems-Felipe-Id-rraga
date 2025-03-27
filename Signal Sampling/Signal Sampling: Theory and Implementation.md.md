@@ -20,7 +20,7 @@
 
 # **Formula**
 
-$x[t_n]= \sum_{n=-\infty}^\infty\int_{-\infty}^{\infty} $ 
+$x[t_n]= \sum_{n=-\infty}^\infty\int_{-\infty}^{\infty}\delta(t-nT_s)x(t)dt$ 
 
 # **A sample and hold circuit**
 
