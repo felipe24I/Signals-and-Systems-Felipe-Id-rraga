@@ -20,7 +20,7 @@
 
 # **Formula**
 
-$x[t_n]= 
+$x[t_n]=$ 
 
 # **A sample and hold circuit**
 
