@@ -18,7 +18,7 @@ Key concepts:
 ## Nyquist-Shannon Theorem
 **Core principle**:  
 A signal with maximum frequency `f_max` must be sampled at:  
-`\f_s\ > 2 × f_max`  
+`f_s > 2 × f_max`  
 to avoid **aliasing** (signal distortion).
 
 **Key implications**:
