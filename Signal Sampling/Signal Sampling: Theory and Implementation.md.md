@@ -4,6 +4,12 @@
 
 **Definition:** Process that discretice a signal $x(t)$ for capture samplings for each $T_s$ 
 
+**$F_s$:** How many samplings occurs in one second
+
+**$T_s$:** How many time transcurs bewteen each sampling
+
+**Note:** Samplings are always integers
+
 **A sample and hold circuit**
 
 ![image](https://github.com/user-attachments/assets/6388e3ad-dd69-4907-acb4-287dedf0b6b2)
