@@ -42,12 +42,6 @@ $$F_s > 2F_{max}$$
    - Capacitor maintains voltage
    - Droop rate: $\frac{dV}{dt} = \frac{I_{leakage}}{C}$
 
-### Design Considerations:
-- **Capacitor Selection**:
-  $$C \geq \frac{I_{leak} \cdot T_{hold}}{\Delta V_{max}}$$
-- **Aperture Time**: < 1% of $T_s$
-- **Settling Time**: < $T_s/10$
-
 ## Practical Python Example
 ```python
 import numpy as np
