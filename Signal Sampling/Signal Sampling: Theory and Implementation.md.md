@@ -1,35 +1,77 @@
 # Signal Sampling: Theory and Implementation
 
-![image](https://github.com/user-attachments/assets/ceb1e903-8654-46f8-af4c-405f4d03ad73)
+![Sampling Process Diagram](https://github.com/user-attachments/assets/ceb1e903-8654-46f8-af4c-405f4d03ad73)
 
-**Definition:** Process that discretice a signal $x(t)$ for capture samplings for each $T_s$ 
+## Core Definitions
+- **Sampling**: Process that discretizes a continuous signal $x(t)$ at regular intervals $T_s$
+- **Sampling Frequency ($F_s$)**: Number of samples per second (Hz)
+- **Sampling Period ($T_s$)**: Time between samples ($T_s = 1/F_s$)
+- **Discrete Time ($t_n$)**: $t_n = n \cdot T_s$ where $n \in \mathbb{Z}$
 
-**$F_s$:** How many samplings occurs in one second
+## Mathematical Representation
+The sampled signal can be expressed as:
 
-**$T_s$:** How many time transcurs bewteen each sampling
+$$x[n] = x(nT_s) = \sum_{n=-\infty}^\infty x(t) \cdot \delta(t - nT_s)$$
 
-**$t_n$:** Discrete time
+where $\delta(t)$ is the Dirac delta function.
 
-**$t_n$:** $n*T_s$
+## Nyquist-Shannon Theorem
+For perfect reconstruction:
+$$F_s > 2B$$
+where $B$ is the signal's bandwidth.
 
-**Note:** Samplings are always integers
+![Sampling Diagram](https://github.com/user-attachments/assets/6de6dfde-dd1d-4de7-bef0-d83be1de51f7)
 
-# **Diagram**
+## Sample-and-Hold Circuit
+![Sample-and-Hold Circuit](https://github.com/user-attachments/assets/6388e3ad-dd69-4907-acb4-287dedf0b6b2)
 
-![image](https://github.com/user-attachments/assets/6de6dfde-dd1d-4de7-bef0-d83be1de51f7)
+### Component Functions:
+| Component | Role |
+|-----------|------|
+| **Switch (MOSFET)** | Controls sampling instant |
+| **Capacitor (C)** | Stores sampled voltage |
+| **Op-Amp** | Provides high impedance buffer |
 
-# **Formula**
+### Operational Phases:
+1. **Sampling Phase (CK HIGH)**:
+   - Switch closes
+   - Capacitor charges to $V_{in}$
+   - Charging time constant: $\tau = R_{on}C$
 
-$x[t_n]= \sum_{n=-\infty}^\infty\int_{-\infty}^{\infty}\delta(t-nT_s)x(t)dt$ 
+2. **Hold Phase (CK LOW)**:
+   - Switch opens
+   - Capacitor maintains voltage
+   - Droop rate: $\frac{dV}{dt} = \frac{I_{leakage}}{C}$
 
-# **A sample and hold circuit**
+### Design Considerations:
+- **Capacitor Selection**:
+  $$C \geq \frac{I_{leak} \cdot T_{hold}}{\Delta V_{max}}$$
+- **Aperture Time**: < 1% of $T_s$
+- **Settling Time**: < $T_s/10$
 
-![image](https://github.com/user-attachments/assets/6388e3ad-dd69-4907-acb4-287dedf0b6b2)
+## Practical Python Example
+```python
+import numpy as np
+import matplotlib.pyplot as plt
 
-**CK**: Clock signal, provides a control signal for sampling
+# Parameters
+Fs = 1000  # Sampling frequency (Hz)
+Ts = 1/Fs  # Sampling period
+f = 50     # Signal frequency (Hz)
+t = np.linspace(0, 0.1, 1000)  # 100 ms
 
-**Capacitor**: 
-  - **When switch ON**: Capacitor charges the voltage from input signal
-  - **When switch OFF**: Capacitor retern this voltage for ADC converter process this value
+# Continuous signal
+x_cont = np.sin(2*np.pi*f*t)
 
-    
+# Sampled signal
+n = np.arange(0, 0.1, Ts)
+x_samp = np.sin(2*np.pi*f*n)
+
+# Plot
+plt.figure(figsize=(10,4))
+plt.plot(t, x_cont, 'b-', label='Continuous')
+plt.stem(n, x_samp, 'r-', label='Samples', use_line_collection=True)
+plt.xlabel('Time (s)'); plt.ylabel('Amplitude')
+plt.legend(); plt.grid()
+plt.title(f'Signal Sampling (Fs={Fs}Hz, f={f}Hz)')
+plt.show()
