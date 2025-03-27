@@ -67,11 +67,16 @@ x_cont = np.sin(2*np.pi*f*t)
 n = np.arange(0, 0.1, Ts)
 x_samp = np.sin(2*np.pi*f*n)
 
-# Plot
+# Plot with corrected stem() function
 plt.figure(figsize=(10,4))
 plt.plot(t, x_cont, 'b-', label='Continuous')
-plt.stem(n, x_samp, 'r-', label='Samples', use_line_collection=True)
+markerline, stemlines, baseline = plt.stem(n, x_samp, 'r-', label='Samples')
+plt.setp(markerline, color='red', markersize=5)
+plt.setp(stemlines, color='red', linewidth=1)
 plt.xlabel('Time (s)'); plt.ylabel('Amplitude')
 plt.legend(); plt.grid()
 plt.title(f'Signal Sampling (Fs={Fs}Hz, f={f}Hz)')
 plt.show()
+```
+![image](https://github.com/user-attachments/assets/86c02264-1f8d-4225-acbc-960c1f96ed12)
+
