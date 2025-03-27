@@ -20,7 +20,7 @@
 
 # **Formula**
 
-$x[t_n]=$ 
+$x[t_n]= \sum_{n=\-infty}^\infty$ 
 
 # **A sample and hold circuit**
 
