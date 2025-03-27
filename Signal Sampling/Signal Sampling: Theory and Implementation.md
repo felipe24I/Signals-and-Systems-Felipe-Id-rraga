@@ -17,8 +17,7 @@ where $\delta(t)$ is the Dirac delta function.
 
 ## Nyquist-Shannon Theorem
 For perfect reconstruction:
-$$F_s > 2B$$
-where $B$ is the signal's bandwidth.
+$$F_s > 2F_{max}$$
 
 ![Sampling Diagram](https://github.com/user-attachments/assets/6de6dfde-dd1d-4de7-bef0-d83be1de51f7)
 
