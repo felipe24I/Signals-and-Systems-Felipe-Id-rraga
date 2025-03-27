@@ -14,9 +14,13 @@
 
 **Note:** Samplings are always integers
 
-#**Diagram**
+# **Diagram**
 
 ![image](https://github.com/user-attachments/assets/6de6dfde-dd1d-4de7-bef0-d83be1de51f7)
+
+# **Formula**
+
+$x[t_n]= 
 
 # **A sample and hold circuit**
 
