@@ -10,7 +10,7 @@
 
 **Note:** Samplings are always integers
 
-**A sample and hold circuit**
+# **A sample and hold circuit**
 
 ![image](https://github.com/user-attachments/assets/6388e3ad-dd69-4907-acb4-287dedf0b6b2)
 
