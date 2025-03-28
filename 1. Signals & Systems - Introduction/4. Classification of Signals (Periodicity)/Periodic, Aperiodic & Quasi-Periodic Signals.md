@@ -1,15 +1,34 @@
 # Periodic, Aperiodic & Quasi-Periodic Signals
 
- ![image](https://github.com/user-attachments/assets/6521884b-d974-4323-b1b4-a834de592a74)
+![image](https://github.com/user-attachments/assets/6521884b-d974-4323-b1b4-a834de592a74)
 
- $\omega = 2\pi F [\frac{rad}{s}]$ (**Angular frequency**)
+## Concepts to Know  
 
- $\theta = \omega t [\frac{rad}{s}][s]$ (**Angle**)
+- **Angular Frequency:**  
+  \[
+  \omega = 2\pi F \quad \left[\frac{\text{rad}}{s}\right]
+  \]
+  
+- **Angle (Phase):**  
+  \[
+  \theta = \omega t \quad [\text{rad}]
+  \]
+  
+  Thus,  
+  \[
+  \sin(\omega t) = \sin(\theta(t))
+  \]  
+  The angle is a function of time.
 
- Thus, $sen(\omega t) = sen(\theta (t))$ (**Angle** is in function of time)
+- **Period (T):** The time a phasor takes to complete a full cycle.  
+  \[
+  T = \frac{1}{F}
+  \]
+  
+  Thus,  
+  \[
+  \omega = \frac{2\pi}{T}
+  \]
 
-**Period=** Time that be late a fasor in complete a lap
 
-$T = \frac{1}{F}$
-
-Thus, $\omega = \frac{2\pi}{T}$
+#Periodic
