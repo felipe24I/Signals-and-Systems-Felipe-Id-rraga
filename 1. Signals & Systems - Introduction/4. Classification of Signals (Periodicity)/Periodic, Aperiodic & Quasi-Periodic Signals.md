@@ -32,4 +32,4 @@
 
 ## Periods of Trigonometric Functions
 
-- Period of \sin(\omega t)  and  \cos(\omega t)  are  2\pi
+- $Period of \sin(\omega t)  and  \cos(\omega t)  are  2\pi$
