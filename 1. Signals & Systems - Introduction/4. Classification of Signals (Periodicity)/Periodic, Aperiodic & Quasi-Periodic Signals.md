@@ -60,4 +60,4 @@ $\cos(\alpha \pm \beta)= \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)$
 
 Thus
 
-$\cos(\omega t \pm \omega T)= \cos(\omega t)\co\omega T) \mp \sin(\omega t)\sin(\omega T)$
+$\cos(\omega t \pm \omega T)= \cos(\omega t)\cos(\omega T) \mp \sin(\omega t)\sin(\omega T)$
