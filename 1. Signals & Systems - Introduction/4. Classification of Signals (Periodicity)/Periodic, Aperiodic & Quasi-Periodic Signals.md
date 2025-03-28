@@ -58,3 +58,6 @@ So, $\alpha = \omega t$ and $\beta = \omega T$, and aplying the next trigonometr
 
 $\cos(\alpha \pm \beta)= \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)$
 
+Thus
+
+$\cos(\omega t \pm \omega T)= \cos(\omega t)\co\omega T) \mp \sin(\omega t)\sin(\omega T)$
