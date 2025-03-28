@@ -183,3 +183,38 @@ where $u(t)$ is the unit step function.
 4. The only solution to this equation is $T = 0$, which contradicts the assumption that $T > 0$.  
 
 5. **Conclusion**: Since no nonzero period exists, **$X(t)$ is aperiodic**.
+
+## Quasi-Periodic Signals  
+
+A **quasi-periodic signal** is a signal that exhibits periodic behavior but does not have a single fundamental period. Instead, it consists of multiple incommensurable frequencies, meaning their ratio is **irrational**.
+
+### **Mathematical Definition**  
+A signal $X(t)$ is **quasi-periodic** if it can be expressed as a sum of multiple sinusoids:  
+
+$$
+X(t) = A_1 \cos(\omega_1 t + \phi_1) + A_2 \cos(\omega_2 t + \phi_2) + \dots + A_n \cos(\omega_n t + \phi_n)
+$$
+
+where **$\frac{\omega_i}{\omega_j}$ is irrational for at least one pair $(i, j)$.**  
+
+### **Example**  
+Consider the following signal:  
+
+$$
+X(t) = \cos(t) + \cos(\sqrt{2}t)
+$$  
+
+- **$\omega_1 = 1$ and $\omega_2 = \sqrt{2}$**  
+- **Their ratio $\frac{\omega_2}{\omega_1} = \sqrt{2}$ is irrational**  
+- This means the function **never exactly repeats**, making it **quasi-periodic**  
+
+### **Visualization**
+*(Insert a graph of a quasi-periodic signal if possible)*  
+
+### **Exercise**  
+Prove whether the following signals are periodic or quasi-periodic:  
+
+1. $X(t) = \cos(3t) + \cos(5t)$  
+2. $X(t) = \cos(2t) + \cos(\pi t)$  
+3. $X(t) = \cos(t) + \cos(\sqrt{3}t)$  
+
