@@ -131,18 +131,18 @@ Some common **aperiodic signals** include:
    $X(t) = e^{-at}, \quad a > 0$  
 
 2. **Rectangular Pulse**  
-   $$X(t) =
+   $X(t) =
    \begin{cases} 
    1, & -T_0 \leq t \leq T_0 \\
    0, & \text{otherwise}
-   \end{cases}$$  
+   \end{cases}$  
 
 3. **Unit Step Function**  
-   $$u(t) =
+   $u(t) =
    \begin{cases} 
    1, & t \geq 0 \\
    0, & t < 0
-   \end{cases}$$  
+   \end{cases}$  
 
 4. **Ramp Function**  
    $X(t) = t u(t)$  
