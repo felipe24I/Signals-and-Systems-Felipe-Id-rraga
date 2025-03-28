@@ -40,4 +40,4 @@
 
 - Period of $\sin(a\omega t + b)$ and $\cos(a\omega t + b)$ is $\frac{2π}{|a|}$.
 
-**If “T” is the period of the periodic function $f(\omega t)$, then a$f (\omega t + b)$, $a>0$ is also a periodic function with a period of T.**
+**If “T” is the period of the periodic function $f(\omega t)$, then $af(\omega t + b)$, $a>0$ is also a periodic function with a period of T.**
