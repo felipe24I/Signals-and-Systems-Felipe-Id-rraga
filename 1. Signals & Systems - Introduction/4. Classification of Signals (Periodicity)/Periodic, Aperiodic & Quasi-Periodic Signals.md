@@ -131,10 +131,7 @@ Some common **aperiodic signals** include:
    $X(t) = e^{-at}, \quad a > 0$  
 
 2. **Rectangular Pulse**  
-   $f(n)$ = $\begin{cases}
-  n/2  & n \text{ is even} \\
-  3n+1 & n \text{ is odd}
-  \end{cases}$
+   $f(n)$ = $\begin{cases}\end{cases}$
 
 3. **Unit Step Function**  
 $$
