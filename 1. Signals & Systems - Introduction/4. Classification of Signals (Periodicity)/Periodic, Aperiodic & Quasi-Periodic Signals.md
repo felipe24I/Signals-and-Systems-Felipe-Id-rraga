@@ -43,3 +43,7 @@
 **If “T” is the period of the periodic function $f(\omega t)$, then $af(\omega t + b)$, $a>0$ is also a periodic function with a period of T.**
 
 - Period of $a\sin(\omega t + b)$ and $a\cos(\omega t + b)$ is 2π.
+
+## Ejercicio
+
+$X(t)$ = $\cos(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
