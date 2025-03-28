@@ -44,6 +44,12 @@
 
 - Period of $a\sin(\omega t + b)$ and $a\cos(\omega t + b)$ is 2π.
 
-## Ejercicio
+## Exercise
 
 $X(t)$ = $\cos(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
+
+**Proof that $X(t)$ is periodic**
+
+**Solution:**
+
+$\cos(\omega (t \pm T)) = \cos(\omega t)$
