@@ -56,5 +56,5 @@ $\cos(\omega (t \pm T)) = \cos(\omega t)$
 
 So, $\alpha = \omega t$ and $\beta = \omega T$, and aplying the next trigonometric identity
 
-$\cos(\alpha \pm \beta)= \cos(\alpha)\cos(\beta) \mp \sen(\alpha)\sen(\beta)$
+$\cos(\alpha \pm \beta)= \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)$
 
