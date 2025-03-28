@@ -53,3 +53,5 @@ $X(t)$ = $\cos(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
 **Solution:**
 
 $\cos(\omega (t \pm T)) = \cos(\omega t)$
+
+So, $\alpha = \omega t$ and $\beta = \omega T$
