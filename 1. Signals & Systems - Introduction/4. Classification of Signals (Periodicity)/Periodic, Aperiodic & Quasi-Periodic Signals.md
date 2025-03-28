@@ -34,3 +34,4 @@
 
 - Period of $\sin(\omega t)$ and $\cos(\omega t)$ are $2\pi$
 - Period of $\tan(\omega t)$ and $\cot(\omega t)$ are $\pi$
+- Period of $\sec(\omega t)$ and $\csc(\omega t)$ are $2\pi$
