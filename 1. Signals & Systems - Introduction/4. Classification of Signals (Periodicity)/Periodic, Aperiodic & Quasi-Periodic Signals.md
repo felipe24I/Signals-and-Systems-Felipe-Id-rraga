@@ -29,7 +29,7 @@
 ## Examples:  
 ![image](https://github.com/user-attachments/assets/2de9761e-d5f8-48db-9532-951fb44e5eec)  
 
-## Periods of $ \sin(\omega t) $ and $ \cos(\omega t) $  
+## Periods of $\sin(\omega t)$ and $\cos(\omega t)$  
 
 - The **fundamental period** of $ \sin(\omega t) $ and $ \cos(\omega t) $ is:  
   $T = \frac{2\pi}{\omega}$  
