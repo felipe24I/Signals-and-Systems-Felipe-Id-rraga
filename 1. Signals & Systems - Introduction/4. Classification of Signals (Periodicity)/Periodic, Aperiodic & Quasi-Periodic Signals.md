@@ -47,13 +47,13 @@
 ## Exercise
 
 1. $X(t)$ = $\cos(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
-2. $X(t)$ = $\sen(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
+2. $X(t)$ = $\sin(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
 
 **Proof that $X(t)$ is periodic**
 
 **Solution:**
 
-1. $\cos(\omega (t \pm T)) = \cos(\omega t)$
+**1. $\cos(\omega (t \pm T)) = \cos(\omega t)$**
 
 So, $\alpha = \omega t$ and $\beta = \omega T$, and aplying the next trigonometric identity
 
@@ -67,7 +67,7 @@ Also $cos(\omega T)= 1$ and $\sin(\omega t)\sin(\omega T)= 0$, results in
 
 $\cos(\omega t \pm \omega T)= \cos(\omega t)$, if $T = \frac{2\pi}{\omega}$
 
-2. $\sin(\omega (t \pm T)) = \sin(\omega t)$
+**2. $\sin(\omega (t \pm T)) = \sin(\omega t)$**
    
 $\sin(\omega t \pm \omega T)$
 
