@@ -35,3 +35,7 @@
 - Period of $\sin(\omega t)$ and $\cos(\omega t)$ are $2\pi$
 - Period of $\tan(\omega t)$ and $\cot(\omega t)$ are $\pi$
 - Period of $\sec(\omega t)$ and $\csc(\omega t)$ are $2\pi$
+
+## Periodic Formulae
+
+**If “T” is the period of the periodic function f(\omega t), then f (a\omega t + b), a>0 is also a periodic function with a period of T/|a|.**
