@@ -5,3 +5,11 @@
  $\omega = 2\pi F [\frac{rad}{s}]$ (**Angular frequency**)
 
  $\theta = \omega t [\frac{rad}{s}][s]$ (**Angle**)
+
+ Thus, $sen(\omega t) = sen(\theta (t))$ (**Angle** is in function of time)
+
+**Period=** Time that be late a fasor in complete a lap
+
+$\T = \frac{1}{F}$
+
+Thus, $\omega = \frac{2\pi}{T}
