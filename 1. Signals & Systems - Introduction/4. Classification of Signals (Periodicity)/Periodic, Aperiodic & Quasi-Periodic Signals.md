@@ -46,13 +46,14 @@
 
 ## Exercise
 
-$X(t)$ = $\cos(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
+1. $X(t)$ = $\cos(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
+2. $X(t)$ = $\sen(\omega t)$; $\omega$ $\varepsilon$ $\Re$ positivos
 
 **Proof that $X(t)$ is periodic**
 
 **Solution:**
 
-$\cos(\omega (t \pm T)) = \cos(\omega t)$
+1. $\cos(\omega (t \pm T)) = \cos(\omega t)$
 
 So, $\alpha = \omega t$ and $\beta = \omega T$, and aplying the next trigonometric identity
 
@@ -65,3 +66,16 @@ $\cos(\omega t \pm \omega T)= \cos(\omega t)\cos(\omega T) \mp \sin(\omega t)\si
 Also $cos(\omega T)= 1$ and $\sin(\omega t)\sin(\omega T)= 0$, results in
 
 $\cos(\omega t \pm \omega T)= \cos(\omega t)$, if $T = \frac{2\pi}{\omega}$
+
+2. $\sin(\omega (t \pm T)) = \sin(\omega t)$
+   
+$\sin(\omega t \pm \omega T)$
+
+$\sin(\alpha \pm \beta)= \cos(\alpha)\sin(\beta) \pm \sin(\alpha)\cos(\beta)$
+
+Thus
+
+$\sin(\omega t \pm \omega T)= \cos(\omega t)\sin(\omega T) \pm \sin(\omega t)\cos(\omega T)$
+
+$\sin(\omega (t \pm T)) = \pm \sin(\omega t)$
+
