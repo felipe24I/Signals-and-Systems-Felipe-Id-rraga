@@ -30,16 +30,12 @@
 
  ![image](https://github.com/user-attachments/assets/2de9761e-d5f8-48db-9532-951fb44e5eec)
 
-## Periods of Trigonometric Functions
+## Periods of f $\sin(\omega t)$ and $\cos(\omega t)$ Functions
 
 - Period of $\sin(\omega t)$ and $\cos(\omega t)$ is $2\pi$
-- Period of $\tan(\omega t)$ and $\cot(\omega t)$ is $\pi$
-- Period of $\sec(\omega t)$ and $\csc(\omega t)$ is $2\pi$
 
 ## Periodic Formulae
 
 **If “T” is the period of the periodic function $f(\omega t)$, then $f (a\omega t + b)$, $a>0$ is also a periodic function with a period of $\frac{T}{|a|}$.**
 
 - Period of $\sin(a\omega t + b)$ and $\cos(a\omega t + b)$ is $\frac{2π}{|a|}$.
-- Period of $\tan(a\omega t + b)$ and $\cot(a\omega t + b)$ is $\frac{\pi}{|a|}$
--
