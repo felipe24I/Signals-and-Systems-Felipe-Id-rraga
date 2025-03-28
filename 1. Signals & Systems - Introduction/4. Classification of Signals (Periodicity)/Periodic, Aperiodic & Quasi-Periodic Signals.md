@@ -133,9 +133,10 @@ Some common **aperiodic signals** include:
 2. **Rectangular Pulse**  
    $f(n) = 
 \begin{cases} 
-1, & t = 0 \\  
-0, & t = 1  
+1 & \text{for } t = 0 \\
+0 & \text{for } t = 1 
 \end{cases}$
+
 
 3. **Unit Step Function**  
 $$
