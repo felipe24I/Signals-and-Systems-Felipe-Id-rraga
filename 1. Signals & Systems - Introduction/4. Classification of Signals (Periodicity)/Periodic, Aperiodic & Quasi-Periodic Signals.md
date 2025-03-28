@@ -38,4 +38,4 @@
 
 ## Periodic Formulae
 
-**If “T” is the period of the periodic function f(\omega t), then f (a\omega t + b), a>0 is also a periodic function with a period of T/|a|.**
+**If “T” is the period of the periodic function $f(\omega t)$, then $f (a\omega t + b)$, $a>0$ is also a periodic function with a period of $\frac{T}{|a|}$.**
