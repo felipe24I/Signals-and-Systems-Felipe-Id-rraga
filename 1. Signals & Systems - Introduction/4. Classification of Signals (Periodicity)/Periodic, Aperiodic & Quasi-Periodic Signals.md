@@ -115,3 +115,72 @@ $\sin(\omega t \pm \omega T) = \sin(\omega t)$
 
 Thus, **$X(t) = \sin(\omega t)$ is periodic with period $T = \frac{2\pi}{\omega}$.**
 
+# Aperiodic Signals  
+
+## Definition  
+
+- A signal $X(t)$ is **aperiodic** if it **does not satisfy** the periodicity condition:  
+  $$X(t \pm T) \neq X(t) \quad \forall T > 0$$  
+- This means that **there is no finite period** $T$ such that the function repeats itself.  
+
+## Examples  
+
+Some common **aperiodic signals** include:  
+
+1. **Exponential Decay Function**  
+   $$ X(t) = e^{-at}, \quad a > 0 $$  
+   
+2. **Rectangular Pulse**  
+   $$ X(t) =
+   \begin{cases} 
+   1, & -T_0 \leq t \leq T_0 \\
+   0, & \text{otherwise}
+   \end{cases}
+   $$  
+
+3. **Unit Step Function**  
+   $$ u(t) =
+   \begin{cases} 
+   1, & t \geq 0 \\
+   0, & t < 0
+   \end{cases}
+   $$  
+
+4. **Ramp Function**  
+   $$ X(t) = t u(t) $$  
+
+## Characteristics of Aperiodic Signals  
+
+- **No repeating pattern**: The signal does not return to the same value after a fixed interval.  
+- **Fourier Transform exists**: Unlike periodic signals, aperiodic signals are typically analyzed using the **Fourier Transform**, which provides their frequency content.  
+- **Finite or infinite duration**: Some aperiodic signals exist for all time (e.g., exponential decay), while others are defined over a finite interval (e.g., rectangular pulse).  
+
+## Relationship to Periodic Signals  
+
+- A **periodic signal** can be seen as an **infinite repetition** of an aperiodic signal.  
+- Conversely, an **aperiodic signal** can be considered as a **single period** of an infinitely extended periodic function.  
+- This relationship is essential in Fourier analysis, where the **Fourier series** of a periodic signal leads to the **Fourier Transform** of an aperiodic signal when the period tends to infinity.  
+
+## Example Problem  
+
+### **Given:**  
+A signal is defined as:  
+$$ X(t) = e^{-2t} u(t) $$  
+where $u(t)$ is the unit step function.  
+
+**Question:** Prove that $X(t)$ is aperiodic.  
+
+### **Solution:**  
+1. Suppose $X(t)$ is periodic, meaning there exists a period $T$ such that:  
+   $$ X(t + T) = X(t) $$  
+   for all $t$.  
+
+2. Substituting $X(t) = e^{-2t} u(t)$ into this equation:  
+   $$ e^{-2(t+T)} u(t+T) = e^{-2t} u(t) $$  
+
+3. Dividing both sides by $e^{-2t}$ (for $t \geq 0$):  
+   $$ e^{-2T} = 1 $$  
+
+4. The only solution to this equation is $T = 0$, which contradicts the assumption that $T > 0$.  
+
+5. **Conclusion**: Since no nonzero period exists, **$X(t)$ is aperiodic**.
