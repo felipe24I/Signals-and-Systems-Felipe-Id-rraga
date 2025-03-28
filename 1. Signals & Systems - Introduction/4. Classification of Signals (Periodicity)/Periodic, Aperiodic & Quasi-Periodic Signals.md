@@ -12,4 +12,4 @@
 
 $T = \frac{1}{F}$
 
-Thus, $\omega = \frac{2\pi}{T}
+Thus, $\omega = \frac{2\pi}{T}$
