@@ -120,7 +120,7 @@ Thus, **$X(t) = \sin(\omega t)$ is periodic with period $T = \frac{2\pi}{\omega}
 ## Definition  
 
 - A signal $X(t)$ is **aperiodic** if it **does not satisfy** the periodicity condition:  
-  $$X(t \pm T) \neq X(t) \quad \forall T > 0$$  
+  $X(t \pm T) \neq X(t) \quad \forall T > 0$  
 - This means that **there is no finite period** $T$ such that the function repeats itself.  
 
 ## Examples  
@@ -128,10 +128,11 @@ Thus, **$X(t) = \sin(\omega t)$ is periodic with period $T = \frac{2\pi}{\omega}
 Some common **aperiodic signals** include:  
 
 1. **Exponential Decay Function**  
-   $$ X(t) = e^{-at}, \quad a > 0 $$  
-   
+   $X(t) = e^{-at}, \quad a > 0$  
+
 2. **Rectangular Pulse**  
-   $$ X(t) =
+   $$
+   X(t) =
    \begin{cases} 
    1, & -T_0 \leq t \leq T_0 \\
    0, & \text{otherwise}
@@ -139,7 +140,8 @@ Some common **aperiodic signals** include:
    $$  
 
 3. **Unit Step Function**  
-   $$ u(t) =
+   $$
+   u(t) =
    \begin{cases} 
    1, & t \geq 0 \\
    0, & t < 0
@@ -147,7 +149,7 @@ Some common **aperiodic signals** include:
    $$  
 
 4. **Ramp Function**  
-   $$ X(t) = t u(t) $$  
+   $X(t) = t u(t)$  
 
 ## Characteristics of Aperiodic Signals  
 
@@ -165,21 +167,21 @@ Some common **aperiodic signals** include:
 
 ### **Given:**  
 A signal is defined as:  
-$$ X(t) = e^{-2t} u(t) $$  
+$X(t) = e^{-2t} u(t)$  
 where $u(t)$ is the unit step function.  
 
 **Question:** Prove that $X(t)$ is aperiodic.  
 
 ### **Solution:**  
 1. Suppose $X(t)$ is periodic, meaning there exists a period $T$ such that:  
-   $$ X(t + T) = X(t) $$  
+   $X(t + T) = X(t)$  
    for all $t$.  
 
 2. Substituting $X(t) = e^{-2t} u(t)$ into this equation:  
-   $$ e^{-2(t+T)} u(t+T) = e^{-2t} u(t) $$  
+   $e^{-2(t+T)} u(t+T) = e^{-2t} u(t)$  
 
 3. Dividing both sides by $e^{-2t}$ (for $t \geq 0$):  
-   $$ e^{-2T} = 1 $$  
+   $e^{-2T} = 1$  
 
 4. The only solution to this equation is $T = 0$, which contradicts the assumption that $T > 0$.  
 
