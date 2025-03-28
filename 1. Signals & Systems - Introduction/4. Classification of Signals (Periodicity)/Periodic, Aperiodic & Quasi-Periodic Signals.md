@@ -72,33 +72,33 @@ We need to show that:
 $$\cos(\omega (t \pm T)) = \cos(\omega t)$$  
 
 #### **Step 1: Using the trigonometric identity**  
-\[
+$$
 \cos(\alpha \pm \beta) = \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)
-\]
+$$
 where:  
 - \( \alpha = \omega t \)  
 - \( \beta = \omega T \)  
 
 #### **Step 2: Substituting values**  
-\[
+$$
 \cos(\omega t \pm \omega T) = \cos(\omega t) \cos(\omega T) \mp \sin(\omega t) \sin(\omega T)
-\]
+$$
 
 Since we know that for the **fundamental period** \( T = \frac{2\pi}{\omega} \):  
-\[
+$$
 \cos(\omega T) = \cos(2\pi) = 1
-\]
-\[
+$$
+$$
 \sin(\omega T) = \sin(2\pi) = 0
-\]
+$$
 
 #### **Step 3: Simplifying**  
-\[
+$$
 \cos(\omega t \pm \omega T) = \cos(\omega t) \cdot 1 \mp \sin(\omega t) \cdot 0
-\]
-\[
+$$
+$$
 \cos(\omega t \pm \omega T) = \cos(\omega t)
-\]
+$$
 Thus, **\( X(t) = \cos(\omega t) \) is periodic with period \( T = \frac{2\pi}{\omega} \).** ✅  
 
 ---
@@ -109,29 +109,29 @@ We need to show that:
 $$\sin(\omega (t \pm T)) = \sin(\omega t)$$  
 
 #### **Step 1: Using the trigonometric identity**  
-\[
+$$
 \sin(\alpha \pm \beta) = \sin(\alpha)\cos(\beta) \pm \cos(\alpha)\sin(\beta)
-\]
+$$
 where:  
 - \( \alpha = \omega t \)  
 - \( \beta = \omega T \)  
 
 #### **Step 2: Substituting values**  
-\[
+$$
 \sin(\omega t \pm \omega T) = \sin(\omega t) \cos(\omega T) \pm \cos(\omega t) \sin(\omega T)
-\]
+$$
 
 Since for \( T = \frac{2\pi}{\omega} \):  
-\[
+$$
 \cos(\omega T) = \cos(2\pi) = 1, \quad \sin(\omega T) = \sin(2\pi) = 0
-\]
+$$
 
 #### **Step 3: Simplifying**  
-\[
+$$
 \sin(\omega t \pm \omega T) = \sin(\omega t) \cdot 1 \pm \cos(\omega t) \cdot 0
-\]
-\[
+$$
+$$
 \sin(\omega t \pm \omega T) = \sin(\omega t)
-\]
+$$
 
 Thus, **\( X(t) = \sin(\omega t) \) is periodic with period \( T = \frac{2\pi}{\omega} \).**
