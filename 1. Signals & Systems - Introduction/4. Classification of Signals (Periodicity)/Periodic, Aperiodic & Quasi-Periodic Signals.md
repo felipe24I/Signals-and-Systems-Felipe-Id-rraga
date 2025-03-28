@@ -26,6 +26,6 @@
 
 - If  is true that $X(t \pm T) = X(t)$, Function $X(t)$ is periodic in time
 
- **Examples:**
+ ## Examples:
 
  ![image](https://github.com/user-attachments/assets/2de9761e-d5f8-48db-9532-951fb44e5eec)
