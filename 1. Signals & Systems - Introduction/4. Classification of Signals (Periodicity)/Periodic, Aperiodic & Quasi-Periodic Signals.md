@@ -22,4 +22,6 @@
 
 
 
-#Periodic
+## Periodic
+
+- If  is true that $$ X(t \pm T) = X(t), Function X(t) is periodic in time
