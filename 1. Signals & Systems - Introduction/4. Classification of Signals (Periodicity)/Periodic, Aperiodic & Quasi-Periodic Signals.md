@@ -61,3 +61,7 @@ $\cos(\alpha \pm \beta)= \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)$
 Thus
 
 $\cos(\omega t \pm \omega T)= \cos(\omega t)\cos(\omega T) \mp \sin(\omega t)\sin(\omega T)$
+
+Also $cos(\omega T)= 1$ and $\sin(\omega t)\sin(\omega T)= 0$, results in
+
+$\cos(\omega t \pm \omega T)= \cos(\omega t), if T = \frac{2\pi}{\omega}
