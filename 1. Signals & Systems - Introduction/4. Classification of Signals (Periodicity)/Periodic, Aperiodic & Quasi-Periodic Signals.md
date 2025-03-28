@@ -130,12 +130,7 @@ Some common **aperiodic signals** include:
 1. **Exponential Decay Function**  
    $X(t) = e^{-at}, \quad a > 0$  
 
-**Rectangular Pulse**  
-
-| Condition | Value |
-|-----------|-------|
-| $-T_0 \leq t \leq T_0$ | 1 |
-| Otherwise | 0 |
+$f(n) = \begin{cases} 1, & t = 0 \\ 0, & t = 1 \end{cases}$
 
 **Unit Step Function**  
 
