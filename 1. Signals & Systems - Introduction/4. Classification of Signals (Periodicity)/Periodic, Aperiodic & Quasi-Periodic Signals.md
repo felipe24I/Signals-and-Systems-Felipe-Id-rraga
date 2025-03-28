@@ -32,4 +32,4 @@
 
 ## Periods of Trigonometric Functions
 
-- Period of $\sin(x) and \cos(x) is 2π$
+- Period of $\sin(x)  and  \cos(x)  is  2π$
