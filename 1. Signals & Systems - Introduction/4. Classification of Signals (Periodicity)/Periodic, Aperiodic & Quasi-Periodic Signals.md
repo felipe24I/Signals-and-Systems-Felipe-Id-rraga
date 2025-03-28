@@ -23,35 +23,35 @@
 ## Periodicity  
 
 - A function **X(t) is periodic** if:  
-  $$X(t \pm T) = X(t)$$  
-  for some **minimum positive** \(T\), called the **fundamental period**.
+  $X(t \pm T) = X(t)$  
+  for some **minimum positive** $T$, called the **fundamental period**.
 
 ## Examples:  
 ![image](https://github.com/user-attachments/assets/2de9761e-d5f8-48db-9532-951fb44e5eec)  
 
-## Periods of \( \sin(\omega t) \) and \( \cos(\omega t) \)  
+## Periods of $ \sin(\omega t) $ and $ \cos(\omega t) $  
 
-- The **fundamental period** of \( \sin(\omega t) \) and \( \cos(\omega t) \) is:  
-  $$T = \frac{2\pi}{\omega}$$  
+- The **fundamental period** of $ \sin(\omega t) $ and $ \cos(\omega t) $ is:  
+  $T = \frac{2\pi}{\omega}$  
 
 ## Periodic Function Transformations  
 
 1. **Scaling the argument of a periodic function**:  
-   - If \(T\) is the period of a periodic function \( f(\omega t) \), then:  
-     $$ f(a\omega t + b) $$  
-     where \( a > 0 \), is also periodic with period:  
-     $$ T' = \frac{T}{|a|} $$  
+   - If $T$ is the period of a periodic function $ f(\omega t) $, then:  
+     $ f(a\omega t + b) $  
+     where $ a > 0 $, is also periodic with period:  
+     $ T' = \frac{T}{|a|} $  
      
-   - Example: The period of \( \sin(a\omega t + b) \) and \( \cos(a\omega t + b) \) is:  
-     $$T = \frac{2\pi}{|a|}$$  
+   - Example: The period of $ \sin(a\omega t + b) $ and $ \cos(a\omega t + b) $ is:  
+     $T = \frac{2\pi}{|a|}$  
 
 2. **Multiplying a periodic function by a constant**:  
-   - If \(T\) is the period of \( f(\omega t) \), then:  
-     $$ a f(\omega t + b) $$  
-     where \( a > 0 \), remains periodic **with the same period \(T\)**.  
+   - If $T$ is the period of $ f(\omega t) $, then:  
+     $ a f(\omega t + b) $  
+     where $ a > 0 $, remains periodic **with the same period $T$**.  
 
-   - Example: The period of \( a\sin(\omega t + b) \) and \( a\cos(\omega t + b) \) is:  
-     $$ T = \frac{2\pi}{\omega} $$  
+   - Example: The period of $ a\sin(\omega t + b) $ and $ a\cos(\omega t + b) $ is:  
+     $ T = \frac{2\pi}{\omega} $  
 
 ---
 
@@ -59,79 +59,59 @@
 
 **Prove that the following functions are periodic:**  
 
-1. \( X(t) = \cos(\omega t) \), where \( \omega \in \mathbb{R}^+ \)  
-2. \( X(t) = \sin(\omega t) \), where \( \omega \in \mathbb{R}^+ \)  
+1. $ X(t) = \cos(\omega t) $, where $ \omega \in \mathbb{R}^+ $  
+2. $ X(t) = \sin(\omega t) $, where $ \omega \in \mathbb{R}^+ $  
 
 ---
 
 ## **Solution**  
 
-### **1. Proof for \( \cos(\omega t) \)**  
+### **1. Proof for $ \cos(\omega t) $**  
 
 We need to show that:  
-$$\cos(\omega (t \pm T)) = \cos(\omega t)$$  
+$ \cos(\omega (t \pm T)) = \cos(\omega t) $  
 
 #### **Step 1: Using the trigonometric identity**  
-$$
-\cos(\alpha \pm \beta) = \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)
-$$
+$ \cos(\alpha \pm \beta) = \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta) $  
 where:  
-- \( \alpha = \omega t \)  
-- \( \beta = \omega T \)  
+- $ \alpha = \omega t $  
+- $ \beta = \omega T $  
 
 #### **Step 2: Substituting values**  
-$$
-\cos(\omega t \pm \omega T) = \cos(\omega t) \cos(\omega T) \mp \sin(\omega t) \sin(\omega T)
-$$
+$ \cos(\omega t \pm \omega T) = \cos(\omega t) \cos(\omega T) \mp \sin(\omega t) \sin(\omega T) $  
 
-Since we know that for the **fundamental period** \( T = \frac{2\pi}{\omega} \):  
-$$
-\cos(\omega T) = \cos(2\pi) = 1
-$$
-$$
-\sin(\omega T) = \sin(2\pi) = 0
-$$
+Since we know that for the **fundamental period** $ T = \frac{2\pi}{\omega} $:  
+$ \cos(\omega T) = \cos(2\pi) = 1 $  
+$ \sin(\omega T) = \sin(2\pi) = 0 $  
 
 #### **Step 3: Simplifying**  
-$$
-\cos(\omega t \pm \omega T) = \cos(\omega t) \cdot 1 \mp \sin(\omega t) \cdot 0
-$$
-$$
-\cos(\omega t \pm \omega T) = \cos(\omega t)
-$$
-Thus, **\( X(t) = \cos(\omega t) \) is periodic with period \( T = \frac{2\pi}{\omega} \).** ✅  
+$ \cos(\omega t \pm \omega T) = \cos(\omega t) \cdot 1 \mp \sin(\omega t) \cdot 0 $  
+$ \cos(\omega t \pm \omega T) = \cos(\omega t) $  
+
+Thus, **$ X(t) = \cos(\omega t) $ is periodic with period $ T = \frac{2\pi}{\omega} $.** ✅  
 
 ---
 
-### **2. Proof for \( \sin(\omega t) \)**  
+### **2. Proof for $ \sin(\omega t) $**  
 
 We need to show that:  
-$$\sin(\omega (t \pm T)) = \sin(\omega t)$$  
+$ \sin(\omega (t \pm T)) = \sin(\omega t) $  
 
 #### **Step 1: Using the trigonometric identity**  
-$$
-\sin(\alpha \pm \beta) = \sin(\alpha)\cos(\beta) \pm \cos(\alpha)\sin(\beta)
-$$
+$ \sin(\alpha \pm \beta) = \sin(\alpha)\cos(\beta) \pm \cos(\alpha)\sin(\beta) $  
 where:  
-- \( \alpha = \omega t \)  
-- \( \beta = \omega T \)  
+- $ \alpha = \omega t $  
+- $ \beta = \omega T $  
 
 #### **Step 2: Substituting values**  
-$$
-\sin(\omega t \pm \omega T) = \sin(\omega t) \cos(\omega T) \pm \cos(\omega t) \sin(\omega T)
-$$
+$ \sin(\omega t \pm \omega T) = \sin(\omega t) \cos(\omega T) \pm \cos(\omega t) \sin(\omega T) $  
 
-Since for \( T = \frac{2\pi}{\omega} \):  
-$$
-\cos(\omega T) = \cos(2\pi) = 1, \quad \sin(\omega T) = \sin(2\pi) = 0
-$$
+Since for $ T = \frac{2\pi}{\omega} $:  
+$ \cos(\omega T) = \cos(2\pi) = 1, \quad \sin(\omega T) = \sin(2\pi) = 0 $  
 
 #### **Step 3: Simplifying**  
-$$
-\sin(\omega t \pm \omega T) = \sin(\omega t) \cdot 1 \pm \cos(\omega t) \cdot 0
-$$
-$$
-\sin(\omega t \pm \omega T) = \sin(\omega t)
-$$
+$ \sin(\omega t \pm \omega T) = \sin(\omega t) \cdot 1 \pm \cos(\omega t) \cdot 0 $  
+$ \sin(\omega t \pm \omega T) = \sin(\omega t) $  
 
-Thus, **\( X(t) = \sin(\omega t) \) is periodic with period \( T = \frac{2\pi}{\omega} \).**
+Thus, **$ X(t) = \sin(\omega t) $ is periodic with period $ T = \frac{2\pi}{\omega} $.** ✅  
+
