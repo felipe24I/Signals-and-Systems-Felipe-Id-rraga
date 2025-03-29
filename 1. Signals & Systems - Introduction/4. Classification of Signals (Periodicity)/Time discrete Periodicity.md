@@ -54,6 +54,10 @@ Thus
 
 $\cos(2\pi fn \pm 2\pi fN ) = \cos(2\pi fn)\cos(2\pi fN) \mp \sin(2\pi fn)\sin(2\pi fN)$ 
 
+where $\cos(2\pi fN) = 1$ and $\sin(2\pi fN) = 0$
 
+Thus
 
+$\cos(2\pi fn \pm 2\pi fN ) = \cos(2\pi fn) 
 
+$\cos[\Omega[n \pm N]] = \cos[\Omega n]$; if  $\Omega =2\pi f$ and $N = \frac{1}{f}$, sames f
