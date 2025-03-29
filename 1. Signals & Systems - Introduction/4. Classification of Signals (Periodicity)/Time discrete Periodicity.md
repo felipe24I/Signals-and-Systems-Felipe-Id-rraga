@@ -78,7 +78,7 @@ $$\cos(2\pi f n \pm 2\pi f N ) = \cos(2\pi f n)$$
 which confirms:
 $$\cos[\Omega (n \pm N)] = \cos[\Omega n]$$
 
-Thus, the signal is **periodic if and only if $ N $ is an integer**.
+Thus, the signal is **periodic if and only if $N$ is an integer**.
 
 ---
 
