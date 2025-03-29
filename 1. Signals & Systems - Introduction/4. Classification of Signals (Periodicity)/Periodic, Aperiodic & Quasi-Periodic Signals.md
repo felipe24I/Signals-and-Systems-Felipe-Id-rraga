@@ -184,37 +184,56 @@ where $u(t)$ is the unit step function.
 
 5. **Conclusion**: Since no nonzero period exists, **$X(t)$ is aperiodic**.
 
-## Quasi-Periodic Signals  
+# Quasiperiodic Signals: Rational vs. Irrational Frequency Ratios
 
-A **quasi-periodic signal** is a signal that exhibits periodic behavior but does not have a single fundamental period. Instead, it consists of multiple incommensurable frequencies, meaning their ratio is **irrational**.
+## Definition
+A **quasiperiodic signal** is a signal composed of two or more periodic components whose frequencies are **not rationally related** (i.e., their ratio is irrational). Such signals do not repeat exactly but exhibit "almost periodic" behavior.
 
-### **Mathematical Definition**  
-A signal $X(t)$ is **quasi-periodic** if it can be expressed as a sum of multiple sinusoids:  
+---
 
-$$
-X(t) = A_1 \cos(\omega_1 t + \phi_1) + A_2 \cos(\omega_2 t + \phi_2) + \dots + A_n \cos(\omega_n t + \phi_n)
-$$
+## Key Concepts
 
-where **$\frac{\omega_i}{\omega_j}$ is irrational for at least one pair $(i, j)$.**  
+### 1. **Rational Frequency Ratio** (\( \frac{A}{B} \) is rational)
+- **Behavior:** The signal is **periodic**.
+- **Condition:** \( \frac{A}{B} = \frac{m}{n} \) (where \( m, n \) are integers).
+- **Fundamental Period:**  
+  The LCM of the individual periods \( T_1 = \frac{1}{A} \) and \( T_2 = \frac{1}{B} \).
 
-### **Example**  
-Consider the following signal:  
+#### Example:
+\[ x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t) \]  
+- Ratio \( \frac{3}{4} \) is rational → **periodic** with \( T = 1 \) (LCM of \( \frac{1}{3} \) and \( \frac{1}{4} \)).
 
-$$
-X(t) = \cos(t) + \cos(\sqrt{2}t)
-$$  
+---
 
-- **$\omega_1 = 1$ and $\omega_2 = \sqrt{2}$**  
-- **Their ratio $\frac{\omega_2}{\omega_1} = \sqrt{2}$ is irrational**  
-- This means the function **never exactly repeats**, making it **quasi-periodic**  
+### 2. **Irrational Frequency Ratio** (\( \frac{A}{B} \) is irrational)
+- **Behavior:** The signal is **quasiperiodic** (no true period).  
+- **Property:**  
+  Infinitely many "almost periods" where the signal nearly repeats, but never exactly.
 
-### **Visualization**
-*(Insert a graph of a quasi-periodic signal if possible)*  
+#### Example:
+\[ x(t) = \sin(2\pi t) + \sin(2\pi \sqrt{2} t) \]  
+- Ratio \( \frac{1}{\sqrt{2}} \) is irrational → **quasiperiodic**.
 
-### **Exercise**  
-Prove whether the following signals are periodic or quasi-periodic:  
+---
 
-1. $X(t) = \cos(3t) + \cos(5t)$  
-2. $X(t) = \cos(2t) + \cos(\pi t)$  
-3. $X(t) = \cos(t) + \cos(\sqrt{3}t)$  
+## Visual Comparison
+| Feature               | Periodic Signal               | Quasiperiodic Signal          |
+|-----------------------|-------------------------------|-------------------------------|
+| **Frequency Ratio**   | Rational (\( \frac{m}{n} \))  | Irrational (e.g., \( \sqrt{2} \)) |
+| **Exact Repetition**  | Yes (period \( T \))          | No (only "almost" periods)    |
+| **Example**           | \( \sin(t) + \sin(2t) \)      | \( \sin(t) + \sin(\pi t) \)   |
 
+---
+
+## Mathematical Insight
+For a signal \( x(t) = \sin(2\pi A t) + \sin(2\pi B t) \):
+- If \( \frac{A}{B} \in \mathbb{Q} \): **Periodic**.  
+- If \( \frac{A}{B} \notin \mathbb{Q} \): **Quasiperiodic**.
+
+---
+
+## Applications
+Quasiperiodic signals appear in:
+- **Physics:** Incommensurate crystal structures.
+- **Engineering:** Frequency-modulated (FM) signals with non-harmonic ratios.
+- **Biology:** Neural activity patterns.
