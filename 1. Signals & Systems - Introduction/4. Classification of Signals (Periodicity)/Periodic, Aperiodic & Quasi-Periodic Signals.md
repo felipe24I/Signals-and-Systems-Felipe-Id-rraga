@@ -3,6 +3,7 @@
 **IMPORTANT NOTE**
 
 **Frequency=** Number of cicles in one second
+
 **Period=** Time that transcur in one cicle
 ![image](https://github.com/user-attachments/assets/6521884b-d974-4323-b1b4-a834de592a74)
 
