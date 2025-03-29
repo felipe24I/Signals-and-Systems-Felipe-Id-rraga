@@ -15,3 +15,9 @@
 **If the signal converge, the signal is called energy signal, it must be that:**
 
   ## $0 < E < \infty$
+
+**Properties:**
+
+- **Units: Joules (J)**
+
+- Finite energy signals must decay to zero as $t \rightarrow \infty$
