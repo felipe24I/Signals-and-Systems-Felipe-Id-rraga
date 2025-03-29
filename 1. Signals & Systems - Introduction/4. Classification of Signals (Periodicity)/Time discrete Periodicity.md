@@ -2,7 +2,7 @@
 
 ## Remember
 
-$t = nT_s , n \varepsilon \mathbb{Z}^{+}$
+$t = nT_s$ , n $\varepsilon$ $\mathbb{Z}^{+}$
 
 Thus
 
