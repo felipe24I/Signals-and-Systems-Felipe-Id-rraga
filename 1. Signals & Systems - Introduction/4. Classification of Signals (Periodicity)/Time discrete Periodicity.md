@@ -3,21 +3,13 @@
 ## **Key Concept Reminder**
 
 - Time in discrete systems is represented as:
-  $$
-  t = nT_s, \quad n \in \mathbb{Z}
-  $$
+  $$t = nT_s, \quad n \in \mathbb{Z}$$
   where $T_s$ is the sampling period.
 
 - Expressing a cosine function in terms of discrete time:
-  $$
-  \cos[\omega nT_s] = \cos\left[\frac{2\pi}{T} nT_s\right]
-  $$
-  $$
-  \cos[\omega nT_s] = \cos\left[2\pi F \frac{n}{F_s}\right]
-  $$
-  $$
-  \cos[\omega nT_s] = \cos\left[2\pi \frac{F}{F_s} n\right]
-  $$
+  $$\cos[\omega nT_s] = \cos\left[\frac{2\pi}{T} nT_s\right]$$
+  $$\cos[\omega nT_s] = \cos\left[2\pi F \frac{n}{F_s}\right]$$
+  $$\cos[\omega nT_s] = \cos\left[2\pi \frac{F}{F_s} n\right]$$
 
 - **Frequency interpretation in discrete time:**
   $$
