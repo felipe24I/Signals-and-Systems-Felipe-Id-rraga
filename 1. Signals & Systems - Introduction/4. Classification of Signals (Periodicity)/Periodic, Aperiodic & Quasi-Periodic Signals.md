@@ -200,7 +200,7 @@ A **quasiperiodic signal** is a signal composed of two or more periodic componen
   The LCM of the individual periods $( T_1 = \frac{1}{A})$ and $( T_2 = \frac{1}{B})$.
 
 #### Example:
-\[ x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t) \]  
+$[ x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t)]$  
 - Ratio \( \frac{3}{4} \) is rational → **periodic** with \( T = 1 \) (LCM of \( \frac{1}{3} \) and \( \frac{1}{4} \)).
 
 ---
