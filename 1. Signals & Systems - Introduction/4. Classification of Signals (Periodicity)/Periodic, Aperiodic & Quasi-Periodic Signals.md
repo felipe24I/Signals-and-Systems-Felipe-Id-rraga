@@ -200,35 +200,35 @@ A **quasiperiodic signal** is a signal composed of two or more periodic componen
   The LCM of the individual periods $( T_1 = \frac{1}{A})$ and $( T_2 = \frac{1}{B})$.
 
 #### Example:
-$[ x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t)]$  
-- Ratio \( \frac{3}{4} \) is rational → **periodic** with \( T = 1 \) (LCM of \( \frac{1}{3} \) and \( \frac{1}{4} \)).
+$x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t)$  
+- Ratio $\frac{3}{4}$ is rational → **periodic** with $T = 1$ (LCM of $\frac{1}{3}$ and $\frac{1}{4})$.
 
 ---
 
-### 2. **Irrational Frequency Ratio** (\( \frac{A}{B} \) is irrational)
+### 2. **Irrational Frequency Ratio** $(\frac{A}{B}$ is irrational)
 - **Behavior:** The signal is **quasiperiodic** (no true period).  
 - **Property:**  
   Infinitely many "almost periods" where the signal nearly repeats, but never exactly.
 
 #### Example:
-\[ x(t) = \sin(2\pi t) + \sin(2\pi \sqrt{2} t) \]  
-- Ratio \( \frac{1}{\sqrt{2}} \) is irrational → **quasiperiodic**.
+$x(t) = \sin(2\pi t) + \sin(2\pi \sqrt{2} t)$  
+- Ratio $\frac{1}{\sqrt{2}}$ is irrational → **quasiperiodic**.
 
 ---
 
 ## Visual Comparison
-| Feature               | Periodic Signal               | Quasiperiodic Signal          |
-|-----------------------|-------------------------------|-------------------------------|
-| **Frequency Ratio**   | Rational (\( \frac{m}{n} \))  | Irrational (e.g., \( \sqrt{2} \)) |
-| **Exact Repetition**  | Yes (period \( T \))          | No (only "almost" periods)    |
-| **Example**           | \( \sin(t) + \sin(2t) \)      | \( \sin(t) + \sin(\pi t) \)   |
+| Feature               | Periodic Signal           | Quasiperiodic Signal         |
+|-----------------------|---------------------------|------------------------------|
+| **Frequency Ratio**   | Rational $\frac{m}{n}$    | Irrational (e.g., $\sqrt{2}$ |
+| **Exact Repetition**  | Yes (period $T$           | No (only "almost" periods)   |
+| **Example**           | $\sin(t) + \sin(2t)$      | $\sin(t) + \sin(\pi t)$      |
 
 ---
 
 ## Mathematical Insight
-For a signal \( x(t) = \sin(2\pi A t) + \sin(2\pi B t) \):
-- If \( \frac{A}{B} \in \mathbb{Q} \): **Periodic**.  
-- If \( \frac{A}{B} \notin \mathbb{Q} \): **Quasiperiodic**.
+For a signal $x(t) = \sin(2\pi A t) + \sin(2\pi B t)$:
+- If $\frac{A}{B} \in \mathbb{Q}$: **Periodic**.  
+- If $\frac{A}{B} \notin \mathbb{Q}$: **Quasiperiodic**.
 
 ---
 
