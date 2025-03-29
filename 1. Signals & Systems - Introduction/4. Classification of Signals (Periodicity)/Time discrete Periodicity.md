@@ -30,7 +30,7 @@ It must be $\cos[\Omega n] = \Cos[\Omega [n \pm N]]
 
 $N$ 
 
-So, $f = \frac{F}{F_s} = \frac{1}{N}
+So, $f = \frac{F}{F_s} = \frac{1}{N}$
 
 ## Exercise
 
