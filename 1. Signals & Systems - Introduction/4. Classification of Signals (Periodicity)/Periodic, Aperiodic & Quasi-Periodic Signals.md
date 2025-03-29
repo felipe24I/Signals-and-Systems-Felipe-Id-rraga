@@ -2,7 +2,7 @@
 
 **IMPORTANT NOTE**
 
-**Frequency($f$)=** = The number of cycles per second, measured in Hertz (Hz) and is given by:
+**Frequency($f$)=** The number of cycles per second, measured in Hertz (Hz) and is given by:
 
 $f= \frac{1}{T}$
 
