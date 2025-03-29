@@ -48,6 +48,11 @@ where $\alpha = 2\pi fn$ and $\beta = 2\pi fN$
 
 So, aplying the trigonometry identity
 
+$\cos(\alpha \pm \beta) = \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)$ 
+
+Thus
+
+$\cos(2\pi fn \pm 2\pi fN ) = \cos(2\pi fn)\cos(2\pi fN) \mp \sin(2\pi fn)\sin(2\pi fN)$ 
 
 
 
