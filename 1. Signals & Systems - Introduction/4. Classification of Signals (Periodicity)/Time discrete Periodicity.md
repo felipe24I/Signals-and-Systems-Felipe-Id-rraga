@@ -6,7 +6,7 @@
   ```math
   t = nT_s, \quad n \in \mathbb{Z}^{+}
   ```
-  where \( T_s \) is the sampling period.
+  where $T_s$ is the sampling period.
 
 - Expressing a cosine function in terms of discrete time:
   ```math
