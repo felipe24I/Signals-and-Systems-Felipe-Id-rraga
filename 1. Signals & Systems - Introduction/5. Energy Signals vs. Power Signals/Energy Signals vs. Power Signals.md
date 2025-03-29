@@ -21,3 +21,6 @@
 - **Units: Joules (J)**
 
 - Finite energy signals must decay to zero as $t \rightarrow \infty$
+
+- Energy signal: Finite E, zero P
+
