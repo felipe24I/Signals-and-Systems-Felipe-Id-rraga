@@ -12,7 +12,7 @@ $\cos[\omega nT_s] = \cos[2\pi F \frac{n}{F_s}]$
 
 $\cos[\omega nT_s] = \cos[2\pi \frac{F}{F_s} n]$
 
-Thus, the frequency in discrete time is \frac{\frac{1}{s}}{\frac{1}{s}} = \frac{1 cycle}{1 sampling} = [\frac{cycles}{samplings}]
+Thus, the frequency in discrete time is $\frac{\frac{1}{s}}{\frac{1}{s}} = \frac{1 cycle}{1 sampling} = [\frac{cycles}{samplings}]$
 
 In words, how many samplings represent one cycle 
 
