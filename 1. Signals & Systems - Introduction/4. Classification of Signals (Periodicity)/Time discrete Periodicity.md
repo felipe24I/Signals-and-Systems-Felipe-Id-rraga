@@ -1,63 +1,131 @@
-# Time discrete Periodicity
+# **Discrete-Time Periodicity**
 
-## Remember
+## **Key Concept Reminder**
 
-$t = nT_s$ , n $\varepsilon$ $\mathbb{Z}^{+}$
+- Time in discrete systems is represented as:
+  ```math
+  t = nT_s, \quad n \in \mathbb{Z}^{+}
+  ```
+  where \( T_s \) is the sampling period.
 
-Thus
+- Expressing a cosine function in terms of discrete time:
+  ```math
+  \cos[\omega nT_s] = \cos\left[\frac{2\pi}{T} nT_s\right]
+  ```
+  ```math
+  \cos[\omega nT_s] = \cos\left[2\pi F \frac{n}{F_s}\right]
+  ```
+  ```math
+  \cos[\omega nT_s] = \cos\left[2\pi \frac{F}{F_s} n\right]
+  ```
 
-$\cos[\omega nT_s] = \cos[\frac{2\pi}{T} nT_s]$
+- **Frequency interpretation in discrete time:**
+  ```math
+  \frac{\frac{1}{s}}{\frac{1}{s}} = \frac{1 \text{ cycle}}{1 \text{ sampling interval}} = \left[\frac{\text{cycles}}{\text{samples}}\right]
+  ```
+  In other words, **how many samples represent one cycle**.
 
-$\cos[\omega nT_s] = \cos[2\pi F \frac{n}{F_s}]$
+- The **angle** in discrete time as a function of samples:
+  ```math
+  \theta[n] = 2\pi f n
+  ```
 
-$\cos[\omega nT_s] = \cos[2\pi \frac{F}{F_s} n]$
+---
 
-Thus, the frequency in discrete time is $\frac{\frac{1}{s}}{\frac{1}{s}} = \frac{1 cycle}{1 sampling} = [\frac{cycles}{samplings}]$
+## **Angular Frequency in Discrete Time**
 
-In words, how many samplings represent one cycle 
+- In discrete-time signals, we define the angular frequency as:
+  ```math
+  \Omega = 2\pi f, \quad \left[\frac{\text{radians} \times \text{cycles}}{\text{samples}}\right]
+  ```
+  Thus, a discrete-time cosine signal is written as:
+  ```math
+  \cos [\Omega n]
+  ```
 
-So $2\pi fn = \theta [n]$ , the angle is in function of samplings
+---
 
-## angular frequency in discrete time
+# **Periodicity Condition in Discrete Time**
 
-$\cos [\Omega n]$ ; $\Omega = 2\pi f [\frac{rad*cycles}{samplings}]$
+For a discrete-time signal to be **periodic**, it must satisfy:
+```math
+\cos[\Omega n] = \cos[\Omega (n \pm N)]
+```
+where \( N \) is the **period (number of samples per cycle)**.
 
-# Periodic signal in discrete time
+### **Period Formula in Discrete Time**
 
-It must be $\cos[\Omega n]$ = $\cos[\Omega [n \pm N]]$
+- Since frequency is defined as:
+  ```math
+  f = \frac{F}{F_s}
+  ```
+  and for periodicity in discrete time:
+  ```math
+  N = \frac{1}{f}
+  ```
 
-## Period in discrete time
+Thus, the signal is periodic **if and only if \( N \) is an integer**.
 
-$N$ 
+---
 
-So, $f = \frac{F}{F_s} = \frac{1}{N}$
+## **Exercise: Proof of Periodicity**
 
-## Exercise
+### **Given Signal**
+```math
+X[n] = \cos[\Omega n]
+```
+Prove that \( X[n] \) is periodic.
 
-Prove that $\cos[\Omega n]$ is periodic
+### **Solution**
 
-**Solution**
+We start with the periodicity condition:
+```math
+\cos[\Omega n] = \cos[\Omega (n \pm N)]
+```
 
-$\cos[\Omega n] = \cos[\Omega[n \pm N]]$
+Substituting \( \Omega = 2\pi f \):
+```math
+\cos[\Omega n] = \cos[2\pi f (n \pm N)]
+```
 
-$\cos[\Omega n] = \cos[2\pi f[n \pm N]]$
+Using the identity:
+```math
+\cos(\alpha \pm \beta) = \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)
+```
+where:
+- \( \alpha = 2\pi f n \)
+- \( \beta = 2\pi f N \)
 
-$\cos[\Omega n] = \cos[2\pi fn \pm 2\pi fN]]$
+Applying the trigonometric identity:
+```math
+\cos(2\pi f n \pm 2\pi f N ) = \cos(2\pi f n)\cos(2\pi f N) \mp \sin(2\pi f n)\sin(2\pi f N)
+```
 
-where $\alpha = 2\pi fn$ and $\beta = 2\pi fN$
+Since:
+```math
+\cos(2\pi f N) = 1, \quad \sin(2\pi f N) = 0
+```
 
-So, aplying the trigonometry identity
+we get:
+```math
+\cos(2\pi f n \pm 2\pi f N ) = \cos(2\pi f n)
+```
 
-$\cos(\alpha \pm \beta) = \cos(\alpha)\cos(\beta) \mp \sin(\alpha)\sin(\beta)$ 
+which confirms:
+```math
+\cos[\Omega (n \pm N)] = \cos[\Omega n]
+```
 
-Thus
+Thus, the signal is **periodic if and only if \( N \) is an integer**.
 
-$\cos(2\pi fn \pm 2\pi fN ) = \cos(2\pi fn)\cos(2\pi fN) \mp \sin(2\pi fn)\sin(2\pi fN)$ 
+---
 
-where $\cos(2\pi fN) = 1$ and $\sin(2\pi fN) = 0$
+### **Key Takeaway**
+- A discrete-time signal is **periodic** if its period \( N \) is an **integer**.
+- The relationship between frequency and period is:
+  ```math
+  N = \frac{F_s}{F}
+  ```
+  where \( F \) is the frequency in continuous time and \( F_s \) is the sampling frequency.
 
-Thus
-
-$\cos(2\pi fn \pm 2\pi fN ) = \cos(2\pi fn)$
-
-$\cos[\Omega[n \pm N]] = \cos[\Omega n]$; if  $\Omega =2\pi f$ and $N = \frac{1}{f}$, sames f
+---
