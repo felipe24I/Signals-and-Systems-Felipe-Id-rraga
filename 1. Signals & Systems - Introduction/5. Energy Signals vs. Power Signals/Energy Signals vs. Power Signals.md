@@ -11,3 +11,7 @@
 - **For discrete-time signals:**
 
   ## $E= \sum_{-\infty}^{\infty} (\lvert x[n] \rvert)^{2}$ 
+
+## If the signal converge, the signal is called energy signal, it must be that:
+
+## $0 < E < \inf$
