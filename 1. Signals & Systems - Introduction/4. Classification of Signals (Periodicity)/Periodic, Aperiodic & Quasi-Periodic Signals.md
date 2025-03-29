@@ -217,11 +217,11 @@ $x(t) = \sin(2\pi t) + \sin(2\pi \sqrt{2} t)$
 ---
 
 ## Visual Comparison
-| Feature               | Periodic Signal           | Quasiperiodic Signal         |
-|-----------------------|---------------------------|------------------------------|
-| **Frequency Ratio**   | Rational $\frac{m}{n}$    | Irrational (e.g., $\sqrt{2}$ |
-| **Exact Repetition**  | Yes (period $T$           | No (only "almost" periods)   |
-| **Example**           | $\sin(t) + \sin(2t)$      | $\sin(t) + \sin(\pi t)$      |
+| Feature               | Periodic Signal           | Quasiperiodic Signal          |
+|-----------------------|---------------------------|-------------------------------|
+| **Frequency Ratio**   | Rational $\frac{m}{n}$    | Irrational (e.g., $\sqrt{2}$) |
+| **Exact Repetition**  | Yes (period $T$)          | No (only "almost" periods)    |
+| **Example**           | $\sin(t) + \sin(2t)$      | $\sin(t) + \sin(\pi t)$       |
 
 ---
 
