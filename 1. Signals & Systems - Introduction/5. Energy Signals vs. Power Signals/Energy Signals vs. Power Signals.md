@@ -12,15 +12,15 @@
 
   ## $E= \sum_{-\infty}^{\infty} (\lvert x[n] \rvert)^{2}$ 
 
-**If the signal converge, the signal is called energy signal, it must be that:**
+**Energy Signal Condition**:  
+A signal is classified as an **energy signal** if its total energy satisfies:
+$$ 0 < E < \infty $$
+*(Implies the signal must decay to zero as \( t \to \infty \))*
 
-  ## $0 < E < \infty$
-
-**Properties:**
-
-- **Units: Joules (J)**
-
-- Finite energy signals must decay to zero as $t \rightarrow \infty$
-
-- Energy signal: Finite E, zero P
+**Key Properties**:
+1. **Units**: Joules (J) for physical signals (e.g., voltage/current in 1Ω systems).
+2. **Decay Requirement**: Finite energy implies \( \lim_{|t| \to \infty} x(t) = 0 \).
+3. **Power Relationship**: Energy signals have:
+   - Finite energy (\( 0 < E < \infty \))
+   - Zero average power (\( P = 0 \))
 
