@@ -1,2 +1,2 @@
 # Repository
-In this repository you can find Theorical and practical content about signals and systems
+Welcome to this repository! Here, you will find theoretical and practical content related to Signals and Systems.
