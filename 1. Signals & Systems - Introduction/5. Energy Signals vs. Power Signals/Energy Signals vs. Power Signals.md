@@ -10,4 +10,4 @@
 
 - **For discrete-time signals:**
 
-  ## $E= \sum_{-\infty}^{\infty} (\lvert x(n) \rvert)^{2}$ 
+  ## $E= \sum_{-\infty}^{\infty} (\lvert x[n] \rvert)^{2}$ 
