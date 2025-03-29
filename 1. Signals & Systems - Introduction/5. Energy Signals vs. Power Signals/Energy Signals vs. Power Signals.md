@@ -14,7 +14,7 @@
 
 **Energy Signal Condition**:  
 A signal is classified as an **energy signal** if its total energy satisfies:
-$$0 < E < \infty$$
+# $$0 < E < \infty$$
 *(Implies the signal must decay to zero as $t \to \infty$
 
 **Key Properties**:
