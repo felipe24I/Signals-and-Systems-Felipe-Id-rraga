@@ -195,9 +195,9 @@ A **quasiperiodic signal** is a signal composed of two or more periodic componen
 
 ### 1. **Rational Frequency Ratio** ($\frac{A}{B}$) is rational)
 - **Behavior:** The signal is **periodic**.
-- **Condition:** \( \frac{A}{B} = \frac{m}{n} \) (where \( m, n \) are integers).
+- **Condition:** $\frac{A}{B} = \frac{m}{n}$ (where $( m, n )$ are integers).
 - **Fundamental Period:**  
-  The LCM of the individual periods \( T_1 = \frac{1}{A} \) and \( T_2 = \frac{1}{B} \).
+  The LCM of the individual periods $( T_1 = \frac{1}{A})$ and $( T_2 = \frac{1}{B})$.
 
 #### Example:
 \[ x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t) \]  
