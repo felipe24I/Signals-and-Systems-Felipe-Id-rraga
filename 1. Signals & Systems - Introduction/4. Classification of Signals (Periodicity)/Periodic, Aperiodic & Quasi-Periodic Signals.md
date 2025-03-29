@@ -203,7 +203,7 @@ A **quasiperiodic signal** is a signal composed of two or more periodic componen
 
 ## Key Concepts
 
-### 1. **Rational Frequency Ratio** ($\frac{A}{B}$) is rational)
+### 1. **Rational Frequency Ratio** ($\frac{A}{B}$) is rational
 - **Behavior:** The signal is **periodic**.
 - **Condition:** $\frac{A}{B} = \frac{m}{n}$ (where $( m, n )$ are integers).
 - **Fundamental Period:**  
@@ -215,7 +215,7 @@ $x(t) = \sin(2\pi \cdot 3t) + \sin(2\pi \cdot 4t)$
 
 ---
 
-### 2. **Irrational Frequency Ratio** $(\frac{A}{B}$ is irrational)
+### 2. **Irrational Frequency Ratio** $(\frac{A}{B}$) is irrational
 - **Behavior:** The signal is **quasiperiodic** (no true period).  
 - **Property:**  
   Infinitely many "almost periods" where the signal nearly repeats, but never exactly.
