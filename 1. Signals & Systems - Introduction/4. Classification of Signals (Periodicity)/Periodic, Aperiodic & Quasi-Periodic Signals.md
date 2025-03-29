@@ -2,9 +2,14 @@
 
 **IMPORTANT NOTE**
 
-**Frequency=** Number of cicles in one second
+**Frequency($f$)=** = The number of cycles per second, measured in Hertz (Hz) and is given by:
 
-**Period=** Time that transcur in one cicle
+$f= \frac{1}{T}$
+
+**Period($T$)=** The time it takes for a signal to complete one full cycle. It is measured in seconds (s) and is given by:
+
+$T= \frac{1}{f}$
+
 ![image](https://github.com/user-attachments/assets/6521884b-d974-4323-b1b4-a834de592a74)
 
 ## Concepts to Know  
