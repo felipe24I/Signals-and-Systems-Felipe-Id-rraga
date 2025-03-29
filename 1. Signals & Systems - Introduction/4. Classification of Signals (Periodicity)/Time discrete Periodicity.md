@@ -24,7 +24,7 @@ $\cos [\Omega n]$ ; $\Omega = 2\pi f [\frac{rad*cycles}{samplings}]$
 
 # Periodic signal in discrete time
 
-It must be $\cos[\Omega n]$ = $\Cos[\Omega [n \pm N]]$
+It must be $\cos[\Omega n]$ = $\cos[\Omega [n \pm N]]$
 
 ## Period in discrete time
 
@@ -38,11 +38,11 @@ Prove that $\cos[\Omega n]$ is periodic
 
 **Solution**
 
-$\Cos[\Omega n] = \Cos[\Omega[n \pm N]]$
+$\cos[\Omega n] = \cos[\Omega[n \pm N]]$
 
-$\Cos[\Omega n] = \Cos[2\pi f[n \pm N]]$
+$\cos[\Omega n] = \cos[2\pi f[n \pm N]]$
 
-$\Cos[\Omega n] = \Cos[2\pi fn \pm 2\pi fN]]$
+$\cos[\Omega n] = \cos[2\pi fn \pm 2\pi fN]]$
 
 where $\alpha = 2\pi fn$ and $\beta = 2\pi fN$
 
