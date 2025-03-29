@@ -6,4 +6,4 @@
 
 - **For continuous-time signals:**
 
-  # $E= \int_{-\infty}^{\infty} (\lvert x \rvert)^{2} dt$
+  ## $E= \int_{-\infty}^{\infty} (\lvert x \rvert)^{2} dt$
