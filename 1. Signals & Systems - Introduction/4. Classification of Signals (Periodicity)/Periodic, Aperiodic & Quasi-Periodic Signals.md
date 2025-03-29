@@ -193,7 +193,7 @@ A **quasiperiodic signal** is a signal composed of two or more periodic componen
 
 ## Key Concepts
 
-### 1. **Rational Frequency Ratio** (\( \frac{A}{B} \) is rational)
+### 1. **Rational Frequency Ratio** ($\frac{A}{B}$) is rational)
 - **Behavior:** The signal is **periodic**.
 - **Condition:** \( \frac{A}{B} = \frac{m}{n} \) (where \( m, n \) are integers).
 - **Fundamental Period:**  
