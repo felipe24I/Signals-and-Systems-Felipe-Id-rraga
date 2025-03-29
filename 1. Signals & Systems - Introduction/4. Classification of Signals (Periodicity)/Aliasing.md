@@ -1,5 +1,8 @@
 # **Aliasing in Discrete-Time Systems**
 
+![image](https://github.com/user-attachments/assets/28f73f3c-f940-4a1e-8d9e-cfc0a61a26c2)
+
+
 ## **Introduction**
 
 Aliasing is a phenomenon that occurs in discrete-time signal processing when a signal is sampled at an insufficient rate, causing different signals to become indistinguishable from one another. This happens when the sampling theorem is violated, leading to **spectral folding** or **overlapping of frequency components**.
