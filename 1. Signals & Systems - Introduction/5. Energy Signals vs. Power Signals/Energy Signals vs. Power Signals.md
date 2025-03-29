@@ -14,4 +14,4 @@
 
 **If the signal converge, the signal is called energy signal, it must be that:**
 
-                            ## $0 < E < \infty$
+  ## $0 < E < \infty$
