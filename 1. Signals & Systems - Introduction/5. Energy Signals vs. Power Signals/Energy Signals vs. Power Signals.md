@@ -34,7 +34,7 @@ A signal is classified as an **energy signal** if its total energy satisfies:
 
 - **For discrete-time signals:**
 
-  ## $E= \sum_{-\infty}^{\infty} (\lvert x[n] \rvert)^{2}$ 
+  ## $P= \lim_{N \to \infty} \frac{1}{2N+1} \sum_{-N}^{N} \lvert x[n] \rvert^{2}$ 
 
 **Energy Signal Condition**:  
 A signal is classified as an **energy signal** if its total energy satisfies:
