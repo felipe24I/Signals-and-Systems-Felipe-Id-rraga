@@ -1,3 +1,4 @@
 # AC circuits
 
-![image](https://github.com/user-attachments/assets/7986ed47-655f-4ff5-9918-e65fa35a12d1)
+![image](https://github.com/user-attachments/assets/b7ab8ffd-ad6f-415a-9d9a-d30c1bc14095)
+
