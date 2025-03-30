@@ -26,4 +26,4 @@ $i(t)= i_m\cos(\omega t + \theta_i) [A]$
 
 ## 1. Rectangular to Polar Conversion
 
-$\vert Z \vert = \sqrt{R^2 + X^2}, \theta = \tan^{-1}(\frac{X}{R})
+$\vert Z \vert = \sqrt{R^2 + X^2}, \theta = \tan^{-1}(\frac{X}{R})$
