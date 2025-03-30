@@ -6,11 +6,11 @@
 
 - **For continuous-time signals:**
 
-  ## $E= \int_{-\infty}^{\infty} (\lvert x(t) \rvert)^{2} dt$
+  ## $E= \int_{-\infty}^{\infty} \lvert x(t) \rvert^{2} dt$
 
 - **For discrete-time signals:**
 
-  ## $E= \sum_{-\infty}^{\infty} (\lvert x[n] \rvert)^{2}$ 
+  ## $E= \sum_{-\infty}^{\infty} \lvert x[n] \rvert^{2}$ 
 
 **Energy Signal Condition**:  
 A signal is classified as an **energy signal** if its total energy satisfies:
