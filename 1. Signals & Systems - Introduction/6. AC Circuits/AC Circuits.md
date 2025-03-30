@@ -16,7 +16,7 @@ $i(t)= i_m\cos(\omega t + \theta_i) [A]$
 
 ## Impedances
 
-| Element          | Rectangular Form $(Z=R+jX)$       | Polar Form $(Z)$                       | Angle $(\theta)$ |
+| Element          | Rectangular Form $(Z=R+jX)$       | Polar Form $(Z=∣Z∣∠θ)$                       | Angle $(\theta)$ |
 |------------------|------------------------------|----------------------------------------|------------------|
 | **Resistor (R)** |   $R + j0 $                  | $R \angle 0^\circ$                     | $0^\circ$        |
 | **Inductor (L)** |   $0 + j\omega L$            | $\omega L \angle 90^\circ$             | $+90^\circ$      |
