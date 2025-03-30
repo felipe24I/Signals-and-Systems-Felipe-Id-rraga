@@ -18,7 +18,7 @@ $i(t)= i_m\cos(\omega t + \theta_i) [A]$
 
 | Element          | Rectangular Form $(Z)$       | Polar Form $(Z)$                     | Angle $(\theta)$ |
 |------------------|--------------------------------|----------------------------------------|--------------------|
-| **Resistor (R)** | \( R + j0 \)                   | \( R \angle 0^\circ \)                 | \( 0^\circ \)      |
+| **Resistor (R)** | $R + j0 $                   | \( R \angle 0^\circ \)                 | \( 0^\circ \)      |
 | **Inductor (L)** | \( 0 + j\omega L \)            | \( \omega L \angle 90^\circ \)         | \( +90^\circ \)    |
 | **Capacitor (C)**| \( 0 - j\frac{1}{\omega C} \)  | \( \frac{1}{\omega C} \angle -90^\circ \) | \( -90^\circ \) |
 | **Series R+L**   | \( R + j\omega L \)            | \( \sqrt{R^2 + (\omega L)^2} \angle \tan^{-1}\left(\frac{\omega L}{R}\right) \) | \( \theta > 0 \) |
