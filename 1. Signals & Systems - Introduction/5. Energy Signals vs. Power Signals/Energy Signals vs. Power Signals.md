@@ -30,7 +30,7 @@ A signal is classified as an **energy signal** if its total energy satisfies:
 
 - **For continuous-time signals:**
 
-  ## $P= \lim_{t \to \infty} \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} (\lvert x(t) \rvert)^{2} dt$
+  ## $P= \lim_{t \to \infty} \frac{1}{T} \int_{-\frac{T}{2}}^{\frac{T}{2}} \lvert x(t) \rvert^{2} dt$
 
 - **For discrete-time signals:**
 
