@@ -26,12 +26,12 @@ $i(t)= i_m\cos(\omega t + \theta_i) [A]$
 
 ## 1. Rectangular to Polar Conversion
 
-$\vert Z \vert = \sqrt{R^2 + X^2}$, $\theta = \tan^{-1}(\frac{X}{R})$
+$\vert Z \vert = \sqrt{R^2 + X^2}$,  $\theta =\tan^{-1}(\frac{X}{R})$
 
 - **For example:** $Z = 3 + j4\Omega \rightarrow 5\angle 53.1^\circ$
 
 ## 2. Polar to Rectangular Conversion
 
-$R = \vert Z \vert \cos\theta$, $X = \vert Z \vert \sin\theta$
+$R = \vert Z \vert \cos\theta$,  $X =\vert Z \vert \sin\theta$
 
 - **For example:** $10\angle 30^\circ$ \rightarrow 8.66 + j5\Omega$
