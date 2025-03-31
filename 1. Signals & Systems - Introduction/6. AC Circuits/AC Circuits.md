@@ -48,9 +48,12 @@ $R = \vert Z \vert \cos\theta$,  $X=\vert Z \vert \sin\theta$
 
 ##  Voltaje Phasor - Current Phasor
 
-|**Time-domain representation**  |                                                      **Phasor-domain representation**|
-|--------------------------------|--------------------------------------------------------------------------------------|
-
+|**Time-domain representation**   | **Phasor-domain representation** |
+|---------------------------------|----------------------------------|
+| $V_m\cos(\omega t + \theta_v)$  | $V_m\angle \theta_v$             |
+| $V_m\sin(\omega t + \theta_v)$  | $V_m\angle {\theta_v - 90°}$     |
+| $I_m\cos(\omega t + \theta_i)$  | $I_m\angle \theta_i$             |
+| $I_m\sin(\omega t + \theta_i)$  | $I_m\angle {\theta_i - 90°}$     |
 
 
 
