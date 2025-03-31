@@ -72,3 +72,9 @@ $p = \frac{1}{2}  V_m I_m$
 - **Case 2: Purely Reactive Load: $\theta_v \not= \theta_i$**
 
 $p= 0$
+
+---
+
+# Impedance triangle
+
+![image](https://github.com/user-attachments/assets/8268f4f2-77b1-41ea-a95a-c184d0d62d9e)
