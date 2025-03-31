@@ -36,6 +36,8 @@ $R = \vert Z \vert \cos\theta$,  $X=\vert Z \vert \sin\theta$
 
 - **For example:** $10\angle 30^\circ \rightarrow 8.66 + j5\Omega$
 
+---
+
 ## $\sin(\omega t)$ and $\cos(\omega t)$ relations
 
 ![image](https://github.com/user-attachments/assets/0af2435e-3e37-4b7b-8454-d3944ed4a0a1)
