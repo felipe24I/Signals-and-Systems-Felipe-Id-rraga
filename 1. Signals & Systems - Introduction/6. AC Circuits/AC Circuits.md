@@ -65,10 +65,10 @@ $p(t) = \frac{1}{2} V_m I_m \cos(\theta_v - \theta_i) + \frac{1}{2} V_m I_m \cos
 
 $p = \frac{1}{2} V_m I_m \cos(\theta_v - \theta_i)$
 
-- **Case 1: Purely Resistive**
+- **Case 1: Purely Resistive Load: \theta_v = \theta_i **
 
 $p = \frac{1}{2}  V_m I_m$
 
-- **Case 2: Purely Reactive (L or C)**
+- **Case 2: Purely Reactive Load: \theta_v \not \theta_i**
 
 $p= 0$
