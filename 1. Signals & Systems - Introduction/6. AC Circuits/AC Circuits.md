@@ -42,7 +42,15 @@ $R = \vert Z \vert \cos\theta$,  $X=\vert Z \vert \sin\theta$
 
 ![image](https://github.com/user-attachments/assets/0af2435e-3e37-4b7b-8454-d3944ed4a0a1)
 
----
+--- 
 
-![image](https://github.com/user-attachments/assets/df89281f-cfc5-49b7-bfa8-5e17f29a8c89)
+# Phasors
+
+##  Voltaje Phasor - Current Phasor
+
+**Time-domain representation**                                                        **Phasor-domain representation**
+------------------------------------------------------------------------------------------------------------------------
+
+
+
 
