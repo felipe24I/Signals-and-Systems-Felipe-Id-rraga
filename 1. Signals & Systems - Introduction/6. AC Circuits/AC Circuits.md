@@ -48,8 +48,8 @@ $R = \vert Z \vert \cos\theta$,  $X=\vert Z \vert \sin\theta$
 
 ##  Voltaje Phasor - Current Phasor
 
-**Time-domain representation**                                                        **Phasor-domain representation**
-------------------------------------------------------------------------------------------------------------------------
+|**Time-domain representation**  |                                                      **Phasor-domain representation**|
+|--------------------------------|--------------------------------------------------------------------------------------|
 
 
 
