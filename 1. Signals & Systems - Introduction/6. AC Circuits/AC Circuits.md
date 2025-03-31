@@ -61,4 +61,14 @@ $R = \vert Z \vert \cos\theta$,  $X=\vert Z \vert \sin\theta$
 
 $p(t) = \frac{1}{2} V_m I_m \cos(\theta_v - \theta_i) + \frac{1}{2} V_m I_m \cos(2\omega t + \theta_v + \theta_i)$
 
+# Average power
 
+$p = \frac{1}{2} V_m I_m \cos(\theta_v - \theta_i)$
+
+- Case 1: Purely Resistive
+
+$p = \frac{1}{2}  V_m I_m$
+
+- Case 2: Purely Reactive (L or C)
+
+$p= 0$
