@@ -59,6 +59,6 @@ $R = \vert Z \vert \cos\theta$,  $X=\vert Z \vert \sin\theta$
 
 # Instantaneous power
 
-$p(t) = \frac{1}{2} V_m*I_m*\cos(\theta_v - \theta_i) + \frac{1}{2}*V_m*I_m*\cos(2\omega t + \theta_v + \theta_i)$
+$p(t) = \frac{1}{2} V_m*I_m* \cos(\theta_v - \theta_i) + \frac{1}{2}*V_m *I_m *\cos(2\omega t + \theta_v + \theta_i)$
 
 
