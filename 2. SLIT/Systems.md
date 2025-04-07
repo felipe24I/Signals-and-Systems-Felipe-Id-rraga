@@ -106,7 +106,7 @@ Examples of Nonlinear systems:
 
 **(LTI) System:** If the system is linear and also time-invariant 
 
-## H. **Stable Systmes:** 
+## H. **Stable Systems:** 
 
 A system is bounded-input /bounded output (BIBO) **stable** if for any bounded input $x$ defined by
 
