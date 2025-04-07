@@ -1,5 +1,7 @@
 # **SYSTEMS AND CLASSIFICATION OF SYSTEMS**
 
+---
+
 ## **A. System Representation**
 
 mathematical model of a physical process that relates the input (or excitation) signal to the output (or response) signal
