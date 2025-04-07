@@ -1,7 +1,5 @@
 # **SYSTEMS AND CLASSIFICATION OF SYSTEMS**
 
----
-
 ## **A. System Representation**
 
 mathematical model of a physical process that relates the input (or excitation) signal to the output (or response) signal
@@ -91,7 +89,7 @@ Examples of Nonlinear systems:
 
 - $y= cos(x)$
 
-F. **Time-Invariant and Time-Varying Systems:**
+## F. **Time-Invariant and Time-Varying Systems:**
 
 **Time-Invariant system:** If a time shift (delay or advance) in the input signal causes the same time shift in the output signal
 
@@ -104,11 +102,11 @@ F. **Time-Invariant and Time-Varying Systems:**
 
 **Note:** To check a system for time-invariance, we can compare the shifted output with the output produced by the shifted input
 
-G. **Linear Time-Invariant Systems:**
+## G. **Linear Time-Invariant Systems:**
 
 **(LTI) System:** If the system is linear and also time-invariant 
 
-H. **Stable Systmes:** 
+## H. **Stable Systmes:** 
 
 A system is bounded-input /bounded output (BIBO) **stable** if for any bounded input $x$ defined by
 
@@ -120,7 +118,7 @@ $\mid y \mid ≤ k_2$
 
 where $k_1$ and $k_2$ are finite real constants
 
-I. **Feedback systems:**
+## I. **Feedback systems:**
 
 The output signal is fed back and added to the input to the system
 
